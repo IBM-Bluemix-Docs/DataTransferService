@@ -2,20 +2,19 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-09-28"
+lastupdated: "2017-11-13"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Sort or Filter the Shipments List
-## Overview
+# Sorting or Filtering the Shipments List
 
 The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} displays shipments associated with Data Transfer Service requests. Upon accessing the screen, shipping requests from the last 30 days are displayed. Shipments may be sorted and filtered to view older shipments or specific shipment types. Follow the steps below to sort or filter the shipments list.
 
 ## Sort or Filter the Shipments List
 
-1. Access the Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Refer to [Access the Shipments Screen](access-shipments-screen.html).
+1. Access the Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Refer to [Accessing the Shipments Screen](index.html).
 2. Determine if the view should be filtered for specific details or sorted by shipment status.
 
 <table><tbody><tr><th>If the view should be...</th><th>Then...</th></tr><tr><td>Sorted by shipment status</td><td><ul><li>Select one of the following options from the <strong>Display</strong> drop down box:<ul><li>Open Shipping Requests</li><li>Closed Shipping Requests</li><li>Canceled Shipping Requests</li><li>All Shipping Requests<br> </li></ul></li><li>No further action is required.</li></ul></td></tr><tr><td>Filtered for specific details</td><td>Proceed to the next step.</td></tr></tbody></table>
