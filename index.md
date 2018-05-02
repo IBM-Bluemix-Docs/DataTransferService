@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-18"
+  years: 1994, 2018
+lastupdated: "2018-05-02"
 
 ---
 {:new_window: target="_blank"}
@@ -29,7 +29,7 @@ Data transfer requests are designed to let the appropriate parties in our datace
 - Only one device can be associated with each requests. If you want to send multiple devices, please create a new request for each device.
 - If the device is to be returned, please provide pre-paid shipping label and export documents as needed in the package so that the device may be returned after the transfer period.
 - If shipping internationally, you are responsible to obtain all licensing, shipping, and customs clearance for the Device, including paying any duties, taxes and shipping costs to and from (if applicable) the IBM data center.
-- The carrier and tracking number for the shipment to our datacenter must be provided when completing the request. Ensure that the label has been created with the appropriate datacenter address prior to completing the request.
+- You need to provide the name of the carrier and tracking number for the shipment to our datacenter when completing the request.  Ensure that the shipping label has been created with the appropriate datacenter address prior to completing the request.
 
 Follow the steps below to submit a data transfer request.
 
