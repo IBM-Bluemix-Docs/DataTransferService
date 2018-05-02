@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-18"
+  years: 1994, 2018
+lastupdated: "2018-05-02"
 
 ---
 {:new_window: target="_blank"}
@@ -59,7 +59,7 @@ Each status on the data transfer ticket indicates the phase of the transfer proc
 |Status 	| Definition |
 |---------| -----------|
 |Sent To SoftLayer 	|The Data Transfer Request was submitted by the user and the hardware or disks(s) is being shipped to the selected datacenter.|
-|Received by SoftLayer |	The shipment was received by the datacenter, has been assigned assigned a serial and was scanned in to our system.|
+|Received by SoftLayer |	The shipment was received by the data center, the device was assigned a serial number and was scanned into our system.|
 |Connect |	The hardware or disk has been connected to the device.|
 |Connected |	An iSCSI target has been created for the device.|
 |Request for Extension |	User requested an extension on the two (2) week connection time.|
