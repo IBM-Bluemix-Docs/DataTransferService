@@ -12,7 +12,7 @@ lastupdated: "2018-05-02"
 
 ## What is Data Transfer?
 
-Data transfer allows authorized users (generally the account's administrator) to send compatible devices to one of our datacenters to be connected directly to the account's network. The device is housed is a dedicated rack in the selected datacenter and is mounted as an iSCSI target for a two (2) week period. During that period, the administrator may access the device on the network in order to use it with other devices and/or services on the account. After the two week period, an extension may be requested to keep the device connected to the network. Otherwise, the device is returned to the party specified in the return address section when the request was created or the device is destroyed onsite if return was not requested.
+Data transfer allows authorized users (generally the account's administrator) to send compatible devices to one of our datacenters to be connected directly to the account's network. The device is housed in a dedicated rack in the selected datacenter and is mounted as an iSCSI target for a two (2) week period. During that period, the administrator may access the device on the network in order to use it with other devices and/or services on the account. After the two week period, an extension may be requested to keep the device connected to the network. Otherwise, the device is returned to the party specified in the return address section when the request was created or the device is destroyed onsite if return was not requested.
 
 
 ## Can I Ship a Device for Data Transfer Internationally?
