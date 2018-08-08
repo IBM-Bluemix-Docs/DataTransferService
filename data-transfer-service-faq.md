@@ -7,7 +7,7 @@ lastupdated: "2018-08-08"
 ---
 
 
-# Frequently asked questions
+# FAQs
 
 ## What is Data Transfer?
 
