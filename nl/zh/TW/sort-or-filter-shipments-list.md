@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
@@ -11,7 +11,7 @@ lastupdated: "2018-05-22"
 
 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 內的「出貨」畫面會顯示與「資料傳送服務」要求相關聯的出貨。過去 30 天的所有出貨要求都會顯示出來。您可以排序或過濾出貨，以檢視較舊的出貨或特定出貨類型。 
 
-## 如何排序或過濾出貨清單
+## 排序和過濾
 
 1. 存取 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 內的「出貨」畫面。 
 2. 判斷視圖要針對特定詳細資料進行過濾，還是要依據出貨狀態進行排序。
@@ -32,8 +32,6 @@ lastupdated: "2018-05-22"
 <tr><td>項目說明</td><td>輸入出貨項目的說明。</td></tr>
 </table>
 
-
-## 接下來會發生什麼情況
 
 在過濾「出貨清單」之後，所有與過濾器設定的參數相對應的出貨都會顯示在「出貨清單」中。如果您要變更清單，請按一下**修改**，然後更新過濾選項。若要清除過濾器設定的所有參數，請按一下**全部清除**。 
 
