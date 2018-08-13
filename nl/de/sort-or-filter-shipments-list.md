@@ -2,21 +2,21 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
 
 # Versandliste sortieren oder filtern
 
-In der Anzeige "Versand" im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} werden Versandvorgänge im Zusammenhang mit Anforderungen für den Data Transfer-Service angezeigt. In dieser Anzeige werden die Versandanforderungen der letzten 30 Tage angezeigt. Die Versandvorgänge können nach Alter oder Versandtyp sortiert oder gefiltert werden.  
+In der Anzeige "Versand" im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} werden Versandvorgänge im Zusammenhang mit Anforderungen für den Data Transfer-Service angezeigt. In dieser Anzeige werden die Versandanforderungen der letzten 30 Tage angezeigt. Die Versandvorgänge können nach Alter oder Versandtyp sortiert oder gefiltert werden. 
 
-## Vorgehensweise zum Sortieren oder Filtern der Versandliste
+## Sortieren unf Filtern
 
 1. Öffnen Sie die Anzeige "Versand" im [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
 2. Legen Sie fest, ob die Ansicht nach bestimmten Details gefiltert oder nach Versandstatus sortiert werden soll.
   - Wenn Sie eine Sortierung anhand des Versandstatus vornehmen möchten, können Sie eine der folgenden Optionen in der Liste **Anzeige** auswählen: **Offene Versandanforderungen**, **Beendete Versandanforderungen**, **Abgebrochene Versandanforderungen** oder **Alle Versandanforderungen**.
-  - Wenn Sie anhand bestimmter Details filtern möchten, wählen Sie eine oder mehrere der verfügbaren *Filteroptionen** aus und klicken Sie auf **Filtern**.
+  - Wenn Sie anhand bestimmter Details filtern möchten, wählen Sie eine oder mehrere der verfügbaren **Filteroptionen** aus und klicken Sie auf **Filtern**.
 
 
 ![DTS-Versandanzeige](/images/DTSShipmentScreen.PNG)
@@ -32,8 +32,6 @@ In der Anzeige "Versand" im [{{site.data.keyword.slportal}}](https://control.sof
 <tr><td>Artikelbeschreibung</td><td>Geben Sie die Beschreibung des Artikels ein, der versendet wird.</td></tr>
 </table>
 
-
-## Weitere Schritte
 
 Nach dem Filtern der Versandliste werden alle Sendungen, die mit den im Filter angegebenen Parametern übereinstimmen, in der Versandliste angezeigt. Klicken Sie auf **Ändern** und aktualisieren Sie die Filteroptionen, wenn Sie  die Liste ändern möchten. Um alle angegebenen Filterparameter zu löschen, klicken Sie auf **Alles löschen**. 
 
