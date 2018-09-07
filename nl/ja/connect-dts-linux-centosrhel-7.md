@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-09-07"
 
 ---
 {:pre: .pre}
@@ -49,7 +49,7 @@ Linux ベースのオペレーティング・システムで iSCSI LUN を操作
 
 5. iSCSI を開始します。<br/>
    ```
-   /etc/init.d/iscsi start
+   systemctl start iscsi.service
    ```
    {: pre}
 

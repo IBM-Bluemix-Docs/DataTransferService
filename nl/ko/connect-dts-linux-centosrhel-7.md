@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-09-07"
 
 ---
 {:pre: .pre}
@@ -49,7 +49,7 @@ Linux 기반 운영 체제에서 iSCSI LUN과 상호작용하려면 사용자가
 
 5. iSCSI를 시작하십시오.<br/>
    ```
-   /etc/init.d/iscsi start
+   systemctl start iscsi.service
    ```
    {: pre}
 

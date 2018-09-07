@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-09-07"
 
 ---
 {:pre: .pre}
@@ -21,13 +21,13 @@ Pour interagir avec un numéro d'unité logique iSCSI dans des systèmes d'explo
 
 2. Créez le fichier de configuration `iscsid.conf`.
 
-3. Sauvegardez la configuration d'origine. 
+3. Sauvegardez la configuration d'origine.
    ```
    cp /etc/iscsi/iscsid.conf{,.save}
    ```
    {: pre}
 
-4. Ouvrez le fichier `/etc/iscsi/iscsid.conf` dans votre éditeur de texte favori et remplacez son contenu par le code suivant : 
+4. Ouvrez le fichier `/etc/iscsi/iscsid.conf` dans votre éditeur de texte favori et remplacez son contenu par le code suivant :
    ```
    node.startup = automatic
    node.session.auth.username = ISCSI_USER
@@ -49,7 +49,7 @@ Pour interagir avec un numéro d'unité logique iSCSI dans des systèmes d'explo
 
 5. Démarrez iSCSI.<br/>
    ```
-   /etc/init.d/iscsi start
+   systemctl start iscsi.service
    ```
    {: pre}
 
