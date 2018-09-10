@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-07"
+lastupdated: "2018-09-10"
 
 ---
 {:pre: .pre}
@@ -67,6 +67,6 @@ Pour interagir avec un numéro d'unité logique iSCSI dans des systèmes d'explo
 
 8. Redémarrez le service iSCSI. La connexion est établie automatiquement à l'hôte cible, car la valeur automatic est affectée à `node.startup` dans `iscsid.conf`. <br/>
    ```
-   /etc/init.d/iscsi restart
+   systemctl restart iscsi.service
    ```
    {: pre}
