@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-07"
+lastupdated: "2018-09-10"
 
 ---
 {:pre: .pre}
@@ -68,6 +68,6 @@ A ferramenta usada para interagir com uma LUN iSCSI em um S.O. baseado no Linux 
 
 8. Reinicie o serviço iSCSI. Como o `node.startup` está configurado como automático em `iscsid.conf`, ele efetua login automaticamente no host de destino.<br/>
    ```
-   /etc/init.d/iscsi restart
+   systemctl restart iscsi.service
    ```
    {: pre}
