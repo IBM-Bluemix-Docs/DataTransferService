@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-07"
+lastupdated: "2018-09-10"
 
 ---
 {:pre: .pre}
@@ -67,6 +67,6 @@ lastupdated: "2018-09-07"
 
 8. 重新启动 iSCSI 服务。因为 `node.startup` 在 `iscsid.conf` 中设置为 automatic，因此它会自动登录到目标主机。<br/>
    ```
-   /etc/init.d/iscsi restart
+   systemctl restart iscsi.service
    ```
    {: pre}
