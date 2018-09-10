@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-07"
+lastupdated: "2018-09-10"
 
 ---
 {:pre: .pre}
@@ -67,6 +67,6 @@ Linux 기반 운영 체제에서 iSCSI LUN과 상호작용하려면 사용자가
 
 8. iSCSI 서비스를 다시 시작하십시오. `node.startup`이 `iscsid.conf`에서 자동으로 설정되어 있으므로 대상 호스트에 자동으로 로그인됩니다.<br/>
    ```
-   /etc/init.d/iscsi restart
+   systemctl restart iscsi.service
    ```
    {: pre}
