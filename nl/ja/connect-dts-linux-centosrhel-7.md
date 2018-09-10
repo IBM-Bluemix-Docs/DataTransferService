@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-07"
+lastupdated: "2018-09-10"
 
 ---
 {:pre: .pre}
@@ -67,6 +67,6 @@ Linux ベースのオペレーティング・システムで iSCSI LUN を操作
 
 8. iSCSI サービスを再始動します。 `iscsid.conf` で `node.startup` が automatic に設定されているため、ターゲット・ホストに自動的にログインします。<br/>
    ```
-   /etc/init.d/iscsi restart
+   systemctl restart iscsi.service
    ```
    {: pre}
