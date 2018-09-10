@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-07"
+lastupdated: "2018-09-10"
 
 ---
 {:pre: .pre}
@@ -67,6 +67,6 @@ Per interagire con una LUN iSCSI in sistemi operativi basati su Linux, gli utent
 
 8. Riavvia il servizio iSCSI. Poiché `node.startup` è impostato su automatic in `iscsid.conf` esegue automaticamente l'accesso all'host di destinazione.<br/>
    ```
-   /etc/init.d/iscsi restart
+   systemctl restart iscsi.service
    ```
    {: pre}
