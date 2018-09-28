@@ -9,7 +9,7 @@ lastupdated: "2018-06-27"
 
 # Windows での iSCSI ソフトウェア・イニシエーターを使用した DTS デバイスへの接続
 
-Windows で iSCSI LUN を操作するには、Microsoft 専有の iSCSI ツールである iSCSI ソフトウェア・イニシエーターを使用してストレージに接続する必要があります。 Windows Server 2008 または Windows Vista 以降のバージョンのユーザーの場合、iSCSI ソフトウェア・イニシエーターはオペレーティング・システムに組み込まれています。Windows Server 2003、Windows XP、Windows 2000 のユーザーは、まずこのイニシエーターをダウンロードしてからこの手順を開始する必要があります。
+Windows で iSCSI LUN を操作するには、Microsoft 専有の iSCSI ツールである iSCSI ソフトウェア・イニシエーターを使用してストレージに接続する必要があります。 Windows Server 2008 または Windows Vista 以降のバージョンのユーザーの場合、iSCSI ソフトウェア・イニシエーターはオペレーティング・システムに組み込まれています。 Windows Server 2003、Windows XP、Windows 2000 のユーザーは、まずこのイニシエーターをダウンロードしてからこの手順を開始する必要があります。
 
 ## iSCSI LUN への接続
 

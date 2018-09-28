@@ -30,7 +30,7 @@ Beachten Sie beim Erstellen einer Anforderung die folgenden Richtlinien.
 - Jeder Anforderung kann nur eine einzelne Einheit zugeordnet werden. Wenn Sie mehrere Einheiten einsenden möchten, erstellen Sie für jede Einheit eine neue Anforderung.
 - Wenn die Einheit zurückgesandt werden soll, legen Sie Ihrer Sendung freigemachte Versandaufkleber sowie gegebenenfalls die erforderlichen Exportdokumente bei, damit die Einheit nach Ablauf des Übertragungszeitraums zurückgesendet werden kann.
 - Beim Versand ins Ausland sind Sie für die Lizenzierung, den Transport und die Zollabfertigung für die Einheit verantwortlich. Dies umfasst auch die Bezahlung aller Gebühren, Steuern und Versandkosten zum und vom (falls zutreffend) {{site.data.keyword.BluSoftlayer}}-Rechenzentrum.
-- Beim Abschließen der Anforderung müssen Sie den Namen und die Tracking-Nummer des beauftragten Transportunternehmens angeben. Erstellen Sie den Versandaufkleber mit der Adresse des entsprechenden Rechenzentrums, bevor Sie die Data Transfer-Anforderung übergeben.
+- Beim Abschließen der Anforderung müssen Sie den Namen und die Tracking-Nummer des beauftragten Transportunternehmens angeben.  Erstellen Sie den Versandaufkleber mit der Adresse des entsprechenden Rechenzentrums, bevor Sie die Data Transfer-Anforderung übergeben.
 
 Führen Sie diese Schritte aus, um eine Data Transfer-Anforderung einzureichen.
 

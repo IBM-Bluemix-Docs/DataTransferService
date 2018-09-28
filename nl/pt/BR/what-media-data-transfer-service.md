@@ -30,8 +30,8 @@ extensão.
 ** Nota **: o cliente é responsável por
 - Assegurar que nenhuma licença de importação ou de exportação seja necessária para enviar o dispositivo para o data center
 da {{site.data.keyword.IBM}} ou para retorná-lo ao Cliente (se aplicável).
-- Assegurar que o Cliente ou qualquer usuário do Cliente cujos dados estejam incluídos no conteúdo não esteja sujeito a
-nenhuma norma governamental dos EUA que revogue ou negue os seus privilégios de exportação nos EUA. Notifique
+- Assegurar que o Cliente ou qualquer usuário do Cliente cujos dados estejam incluídos no conteúdo não esteja sujeito a nenhuma
+norma governamental dos EUA que revogue ou negue os seus privilégios de exportação nos EUA. Notifique
 a {{site.data.keyword.IBM}} imediatamente se o Cliente ou qualquer usuário se tornar sujeito a qualquer norma desse tipo.
 - Obter todo o licenciamento, a remessa e a liberação da alfândega para o dispositivo. As responsabilidades do cliente incluem
 o pagamento de quaisquer taxas, impostos e custos do frete para o data center da {{site.data.keyword.IBM}} ou dele (se

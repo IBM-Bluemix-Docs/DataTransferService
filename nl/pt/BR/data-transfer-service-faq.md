@@ -2,12 +2,12 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-08-08"
 
 ---
 
 
-# Perguntas mais frequentes
+# Perguntas frequentes
 
 ## O que é Data Transfer?
 
@@ -55,13 +55,11 @@ Use as diretrizes a seguir ao selecionar um dispositivo ou um disco (CD ou DVD) 
 
 ## O dispositivo pode ser enviado de volta mais cedo ou pode ficar mais de duas semanas?
 
-Sim, seu hardware ou discos poderão ser retornados a qualquer momento ou poderão ficar conectados mais tempo, se necessário. Para solicitar um retorno ou uma extensão, inclua um comentário no chamado da solicitação de transferência de dados original com a solicitação apropriada. 
-Se você solicitar um retorno, o {{site.data.keyword.BluSoftlayer}} desconectará e retornará o hardware ou os discos para o
+Sim, seu hardware ou discos poderão ser retornados a qualquer momento ou poderão ficar conectados mais tempo, se necessário. Para solicitar um retorno ou uma extensão, inclua um comentário no chamado da solicitação de transferência de dados original com a solicitação apropriada. Se você solicitar um retorno, o {{site.data.keyword.BluSoftlayer}} desconectará e retornará o hardware ou os discos para o
 endereço de retorno fornecido na solicitação original usando os rótulos de remessa pré-pagos e o pacote
 fornecido.
 
-Se você solicitar uma extensão, a solicitação de extensão será processada o mais rápido possível. É importante observar que cada solicitação de extensão estende o prazo que o dispositivo está conectado em uma semana e pode estar sujeita a uma taxa de extensão. 
-Mais detalhes serão incluídos quando um membro da equipe do {{site.data.keyword.BluSoftlayer_full}} responder à
+Se você solicitar uma extensão, a solicitação de extensão será processada o mais rápido possível. É importante observar que cada solicitação de extensão estende o prazo que o dispositivo está conectado em uma semana e pode estar sujeita a uma taxa de extensão. Mais detalhes serão incluídos quando um membro da equipe do {{site.data.keyword.BluSoftlayer_full}} responder à
 solicitação no chamado original.
 
 Cada status no chamado de transferência de dados indica a fase do processo de transferência para o hardware ou os discos que
@@ -75,9 +73,9 @@ discos estão sendo enviados para o data center selecionado.|
 dispositivo e ele foi escaneado no sistema do {{site.data.keyword.BluSoftlayer}}.|
 |`Connect` |	O hardware ou o disco está conectado ao dispositivo.|
 |`Connected` |	Um destino iSCSI foi criado para o dispositivo.|
-|`Request for Extension` |O cliente solicitou uma extensão no tempo de conexão de duas semanas.|
-|`Request for Return` |O cliente solicitou o retorno do hardware ou dos discos.|
+|`Request for Extension` | O cliente solicitou uma extensão no tempo de conexão de duas semanas.|
+|`Request for Return` | O cliente solicitou o retorno do hardware ou dos discos.|
 |`Disconnect` |	A desconexão do hardware ou dos discos foi iniciada.|
 |`Disconnected` |	O destino está seguramente removido.|
-|`Destroyed` |O dispositivo foi destruído no local seguindo o procedimento de destruição de HDD do {{site.data.keyword.BluSoftlayer}}.|
+|`Destroyed` | O dispositivo foi destruído no local seguindo o procedimento de destruição de HDD do {{site.data.keyword.BluSoftlayer}}.|
 |`Return by SoftLayer` |	O hardware ou os discos foram empacotados e enviados para o endereço de retorno fornecido na solicitação original.|

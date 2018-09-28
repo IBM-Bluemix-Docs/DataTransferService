@@ -36,7 +36,6 @@ associadas às solicitações do serviço de transferência de dados. Todas as s
 
 
 Depois de ter filtrado a Lista de remessas, todas as remessas correspondentes aos parâmetros configurados pelo filtro
-são exibidas na Lista de remessas. Clique em **Modificar** e atualize as opções de filtro se você desejar mudar a lista. 
-Para limpar todos os parâmetros configurados pelo filtro, clique em **Limpar todos**. 
+são exibidas na Lista de remessas. Clique em **Modificar** e atualize as opções de filtro se você desejar mudar a lista. Para limpar todos os parâmetros configurados pelo filtro, clique em **Limpar todos**. 
 
 Se os resultados tiverem sido classificados pelo status da remessa, todas as remessas que estiverem dentro do status selecionado serão exibidas. Selecione um novo status da lista para atualizar os resultados exibidos a qualquer momento.

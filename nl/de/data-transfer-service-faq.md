@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-08-08"
 
 ---
 
@@ -59,9 +59,9 @@ Jeder Status im Data Transfer-Ticket gibt die Phase des Übertragungsprozesses f
 |`Von SoftLayer empfangen` |	Die Sendung wurde im Rechenzentrum empfangen, die Einheit wurde unter einer Seriennummer registriert und in das {{site.data.keyword.BluSoftlayer}}-System eingelesen.|
 |`Verbindung herstellen` |	Die Hardware bzw. der Datenträger wird mit der Einheit verbunden.|
 |`Verbunden` |	Für die Einheit wird ein iSCSI-Ziel erstellt.|
-|`Verlängerungsanforderung ` |Der Kunde hat eine Verlängerung über die zweiwöchige Verbindungszeit hinaus angefordert.|
-|`Rücksendeanforderung ` |Der Kunde hat die Rücksendung der Hardware oder der Datenträger angefordert.|
+|`Verlängerungsanforderung ` | Der Kunde hat eine Verlängerung über die zweiwöchige Verbindungszeit hinaus angefordert.|
+|`Rücksendeanforderung ` | Der Kunde hat die Rücksendung der Hardware oder der Datenträger angefordert.|
 |`Verbindung trennen` |	Das Trennen der Verbindung für die Hardware oder die Datenträger wurde eingeleitet.|
 |`Verbindung getrennt` |	Das Ziel wurde ordnungsgemäß abgehängt.|
-|`Vernichtet` |Die Einheit wurde gemäß dem {{site.data.keyword.BluSoftlayer}}-Verfahren für HDD-Vernichtung vor Ort unbrauchbar gemacht.|
+|`Vernichtet` | Die Einheit wurde gemäß dem {{site.data.keyword.BluSoftlayer}}-Verfahren für HDD-Vernichtung vor Ort unbrauchbar gemacht.|
 |`Rücksendung durch SoftLayer` |	Die Hardware oder die Datenträger wurden verpackt und an die in der ursprünglichen Anforderung angegebene Rücksendeadresse versendet.|

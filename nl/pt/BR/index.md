@@ -50,22 +50,19 @@ Siga estas etapas para enviar uma solicitação de transferência de dados.
 <caption>A Tabela 1 lista os nomes dos campos no formulário de solicitação à esquerda e a sua descrição à direita.</caption> 
  <tr><th>Nome de Campo</th><th>Instruções</th></tr>
  <tr><td>Tipo de dispositivo</td><td>O tipo de dispositivo que é enviado para o destino. Se o tipo de dispositivo não estiver listado, selecione "Outro".</td></tr>
- <tr><td>Número de série</td><td> O número de série do dispositivo.</td></tr><tr><td>Descrição</td><td>Uma breve descrição do dispositivo. 
-Os detalhes importantes a serem incluídos podem ser os fatores de identificação, como a cor, os rótulos ou os adesivos.</td></tr>
+ <tr><td>Número de série</td><td> O número de série do dispositivo.</td></tr><tr><td>Descrição</td><td>Uma breve descrição do dispositivo. Os detalhes importantes a serem incluídos podem ser os fatores de identificação, como a cor, os rótulos ou os adesivos.</td></tr>
  <tr><td>Nota</td><td>Quaisquer observações adicionais sobre o dispositivo ou a transferência.</td></tr><tr><td>Destino</td><td>O
 data center que receberá o dispositivo.</td></tr>
  <tr><td>Transportadora</td><td>A transportadora postal ou expressa que é usada para enviar o dispositivo para seu destino.</td></tr>
  <tr><td>Número de rastreamento</td><td>Número de rastreamento completo para a remessa.</td></tr>
  </table>
 
-4. Preencha cada campo na seção **Endereço de retorno** ou marque a caixa de seleção **Endereço da empresa** para preencher automaticamente os campos com o endereço da empresa no arquivo. <br/> 
-**Nota**: lembre-se de incluir o rótulo de retorno pré-pago e quaisquer documentos de
+4. Preencha cada campo na seção **Endereço de retorno** ou marque a caixa de seleção **Endereço da empresa** para preencher automaticamente os campos com o endereço da empresa no arquivo. <br/> **Nota**: lembre-se de incluir o rótulo de retorno pré-pago e quaisquer documentos de
 exportação necessários no pacote.
 5. Depois de ler o contrato de prestação de serviços, marque a caixa de seleção **Li e concordo com o Contrato de Prestação de Serviços de Transferência de Dados e o Contrato de Prestação de Serviços Principal**.
 6. Clique em **Enviar solicitação de serviço**.
 
-Após o envio da solicitação, o status do chamado da solicitação aparecerá como `Sent to SoftLayer`. 
-Se alguma remessa de importação ou de exportação requerer uma licença de seu governo local, notifique o
+Após o envio da solicitação, o status do chamado da solicitação aparecerá como `Sent to SoftLayer`. Se alguma remessa de importação ou de exportação requerer uma licença de seu governo local, notifique o
 {{site.data.keyword.BluSoftlayer}} e anexe as informações sobre licença no chamado.
 
 Depois do recebimento do dispositivo, o status é atualizado para `Received by SoftLayer`. O status do
@@ -73,8 +70,7 @@ chamado é atualizado novamente para `Connected` após um técnico do data cente
 
 O período de transferência de dados iniciais é de duas semanas. Durante esse tempo, o acesso ao dispositivo é concedido apenas
 ao administrador da conta. Se você precisar de mais tempo, será possível solicitar uma extensão. Além disso, se você desejar que o
-dispositivo seja enviado de volta antes de duas semanas, será possível solicitar o retorno. Deve-se notificar a {{site.data.keyword.IBM}} por meio do [{{site.data.keyword.slportal}}](https://control.softlayer.com/) quando a transferência está completa. 
-Em seguida, o {{site.data.keyword.BluSoftlayer}} removerá o dispositivo e o retornará ou o destruirá dependendo da sua
+dispositivo seja enviado de volta antes de duas semanas, será possível solicitar o retorno. Deve-se notificar a {{site.data.keyword.IBM}} por meio do [{{site.data.keyword.slportal}}](https://control.softlayer.com/) quando a transferência está completa. Em seguida, o {{site.data.keyword.BluSoftlayer}} removerá o dispositivo e o retornará ou o destruirá dependendo da sua
 solicitação.
 
 

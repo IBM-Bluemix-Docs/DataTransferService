@@ -2,12 +2,12 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-08-08"
 
 ---
 
 
-# 常见问答解答
+# 常见问题
 
 ## 什么是数据传输？
 
