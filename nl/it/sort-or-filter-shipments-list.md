@@ -33,6 +33,6 @@ La schermata Shipments nel [{{site.data.keyword.slportal}}](https://control.soft
 </table>
 
 
-Dopo che hai filtrato l'elenco spedizioni, in esso vengono visualizzate tutte le spedizioni che corrispondono ai parametri impostati dal filtro. Se vuoi modificare l'elenco, fai clic su **Modify** e aggiorna le opzioni di filtro. Per cancellare tutti i parametri impostati dal filtro, fai clic su **Clear All**.  
+Dopo che hai filtrato l'elenco spedizioni, in esso vengono visualizzate tutte le spedizioni che corrispondono ai parametri impostati dal filtro. Se vuoi modificare l'elenco, fai clic su **Modify** e aggiorna le opzioni di filtro. Per cancellare tutti i parametri impostati dal filtro, fai clic su **Clear All**. 
 
 Se i risultati sono stati ordinati in base allo stato di spedizione, vengono visualizzate tutte le spedizioni che rientrano nello stato selezionato. Seleziona un nuovo stato dall'elenco per aggiornare i risultati visualizzati in qualsiasi momento.

@@ -65,7 +65,7 @@ Pour interagir avec un numéro d'unité logique iSCSI dans des systèmes d'explo
    ```
    {: pre}
 
-8. Redémarrez le service iSCSI. La connexion est établie automatiquement à l'hôte cible, car la valeur automatic est affectée à `node.startup` dans `iscsid.conf`. <br/>
+8. Redémarrez le service iSCSI. La connexion est établie automatiquement à l'hôte cible, car la valeur automatic est affectée à `node.startup` dans `iscsid.conf`.<br/>
    ```
    systemctl restart iscsi.service
    ```

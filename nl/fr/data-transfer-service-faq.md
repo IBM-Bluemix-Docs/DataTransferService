@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-08-08"
 
 ---
 
@@ -17,13 +17,13 @@ Ce service permet à des utilisateurs autorisés (généralement l'administrateu
 
 Le matériel et les disques peuvent être expédiés à l'échelle nationale et internationale vers n'importe lequel des centres de données {{site.data.keyword.BluSoftlayer}}. Toutefois, en tant que client, vous devez :
 
-- Vous assurer qu'aucune licence d'importation ou d'exportation n'est requise pour expédier le périphérique vers le centre de données {{site.data.keyword.IBM}} ou pour le renvoyer au client (le cas échéant). 
+- Vous assurer qu'aucune licence d'importation ou d'exportation n'est requise pour expédier le périphérique vers le centre de données {{site.data.keyword.IBM}} ou pour le renvoyer au client (le cas échéant).
 - Vous assurer que ni le client ni un utilisateur du client dont les données sont incluses dans le contenu ne sont soumis à une ordonnance du gouvernement américain leur refusant ou leur révoquant leurs droits d'exportation. Vous devez avertir {{site.data.keyword.IBM}} immédiatement si votre entreprise ou un tel utilisateur devient soumis à ce type d'ordonnance.
 - Effectuer toutes les démarches de licence, d'expédition et de dédouanement liées au périphérique, y compris le paiement des frais de douane, taxes et autres frais d'expédition pour faire parvenir le périphérique au centre de données {{site.data.keyword.IBM}} et éventuellement l'en faire revenir.
 - Observer toutes les lois applicables, notamment en matière de protection des données, d'importation et d'exportation, en ce qui concerne l'expédition et le retour du périphérique et le transfert du contenu vers le centre de données {{site.data.keyword.IBM}}.
 - Avoir mis en place des accords appropriés, et obtenu tous les droits nécessaires, avec l'utilisateur du client en ce qui concerne le transfert matériel des données de l'utilisateur par le client.
 
-Incluez une étiquette de retour prépayée, ainsi que tous les documents d'exportation appropriés dans le colis. {{site.data.keyword.BluSoftlayer}} conditionne le périphérique pour le retour en utilisant l'étiquette et les documents que vous avez fournis. Si aucune demande de retour n'est formulée, le périphérique est détruit. 
+Incluez une étiquette de retour prépayée, ainsi que tous les documents d'exportation appropriés dans le colis. {{site.data.keyword.BluSoftlayer}} conditionne le périphérique pour le retour en utilisant l'étiquette et les documents que vous avez fournis. Si aucune demande de retour n'est formulée, le périphérique est détruit.
 
 
 ## Quels types de périphérique peuvent être envoyés avec une demande de transfert de données ?
@@ -43,7 +43,7 @@ Suivez les instructions ci-dessous lorsque vous sélectionnez un périphérique 
 
    - Les disques doivent être livrés dans des boîtes de rangement pour CD, boîtiers ou autres conteneurs similaires. Si vous souhaitez envoyer plusieurs disques, rangez-les ensemble dans un même support.
 
-   - Chaque disque doit être étiqueté clairement et de manière unique. 
+   - Chaque disque doit être étiqueté clairement et de manière unique.
 
 ## Le périphérique peut-il être renvoyé plus rapidement ou peut-il rester connecté plus longtemps ?
 
@@ -55,13 +55,13 @@ Chaque statut figurant sur le ticket de transfert de données indique la phase d
 
 |Statut 	| Définition |
 |---------| -----------|
-|`Envoyé à SoftLayer` |La demande de transfert de données a été soumise par l'utilisateur, et le matériel ou les disques sont en cours de livraison vers le centre de données électionné.|
+|`Envoyé à SoftLayer` |La demande de transfert de données a été soumise par l'utilisateur, et le matériel ou les disques sont en cours de livraison vers le centre de données sélectionné.|
 |`Reçu par SoftLayer` |	Le colis a été livré au centre de données, un numéro de série a été attribué au périphérique et celui-ci a été scanné dans le système {{site.data.keyword.BluSoftlayer}} .|
 |`Connecter` |	Le matériel ou le disque est connecté au périphérique.|
 |`Connecté` |	Une cible iSCSI a été créée pour le périphérique.|
-|`Demande d'extension` |Le client a demandé une extension des deux semaines de connexion.|
-|`Demande de retour` |Le client a demandé le retour de son matériel ou de ses disques.|
+|`Demande d'extension` | Le client a demandé une extension des deux semaines de connexion.|
+|`Demande de retour` | Le client a demandé le retour de son matériel ou de ses disques.|
 |`Déconnecter` |	Une déconnexion du matériel ou des disques a été initiée.|
 |`Déconnecté` |	La cible a été correctement déconnectée.|
-|`Détruit` |Le périphérique a été détruit sur site conformément à la procédure de destruction des unités de disques durs {{site.data.keyword.BluSoftlayer}}. |
+|`Détruit` | Le périphérique a été détruit sur site conformément à la procédure de destruction des unités de disques durs {{site.data.keyword.BluSoftlayer}}.|
 |`Renvoyé par SoftLayer` |	Le matériel ou les disques ont été emballés et expédiés à l'adresse de retour fournie dans la demande d'origine.|

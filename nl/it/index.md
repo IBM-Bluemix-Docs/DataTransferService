@@ -30,7 +30,7 @@ Quando crei una richiesta, tieni presente le seguenti linee guida.
 - A una singola richiesta può essere associata solo un singolo dispositivo. Se vuoi inviare più dispositivi, devi creare una nuova richiesta per ogni dispositivo.
 - Se il dispositivo deve essere restituito, fornisci nell'imballaggio un'etichetta di spedizione prepagata e i documenti di esportazione come necessario in modo che il dispositivo possa essere restituito dopo il periodo di trasferimento.
 - In caso di spedizione internazionale, è tua responsabilità ottenere tutte le autorizzazioni relative a licenze, spedizione e dogana per il dispositivo. Le tue responsabilità includono il pagamento di eventuali dazi, imposte e costi di spedizione verso e dal (se applicabile) data center {{site.data.keyword.BluSoftlayer}}.
-- Quando completi la richiesta, devi fornire il nome del corriere e il numero di tracciabilità per la spedizione al data center. Crea l'etichetta di spedizione con l'appropriato indirizzo del data center prima di inviare la richiesta di trasferimento dati.
+- Quando completi la richiesta, devi fornire il nome del corriere e il numero di tracciabilità per la spedizione al data center.  Crea l'etichetta di spedizione con l'appropriato indirizzo del data center prima di inviare la richiesta di trasferimento dati.
 
 Attieniti a questa procedura per inviare una richiesta di trasferimento dati.
 

@@ -17,7 +17,7 @@ Con il servizio di trasferimento dati, puoi inviare un dispositivo compatibile c
 3.    Il dispositivo deve essere compatibile con USB 2.0 (è ora supportata anche la 3.0)
 4.    Il dispositivo deve essere provvisto di un cavo USB con connettore USB A maschio (presa standard adatta per la maggior parte dei computer)
 5.    CD / DVD
-      - Devono essere in custodie di tipo jewel case o astuccio porta CD, oppure qualsiasi altro tipo di custodia o contenitore. È possibile posizionarli tutti insieme in un singolo contenitore (un astuccio porta CD, ad esempio). Ciascun disco deve essere etichettato in maniera univoca. 
+      - Devono essere in custodie di tipo jewel case o astuccio porta CD, oppure qualsiasi altro tipo di custodia o contenitore. È possibile posizionarli tutti insieme in un singolo contenitore (un astuccio porta CD, ad esempio). Ciascun disco deve essere etichettato in maniera univoca.
       - I dischi vengono ruotati su richiesta del cliente tramite il ticket.
 
 ## Costi a tuo carico
@@ -50,21 +50,21 @@ Completa il modulo con i seguenti dati del dispositivo
 6. Il servizio di corriere utilizzato
 7. Indirizzo di ritorno del punto in cui desideri che il dispositivo venga inviato dopo che il trasferimento dei dati è terminato.
 
-Questa richiesta crea automaticamente un ticket di supporto per avvisare i tecnici {{site.data.keyword.BluSoftlayer}} che il dispositivo sta per essere spedito e consentire loro di tracciare la consegna. Quando {{site.data.keyword.BluSoftlayer}} riceve il dispositivo, i tecnici si collegano ad esso nel rack dedicato. Quando il dispositivo è collegato, il ticket viene aggiornato per fornirti un link alle tue credenziali di accesso alla destinazione iSCSI. 
+Questa richiesta crea automaticamente un ticket di supporto per avvisare i tecnici {{site.data.keyword.BluSoftlayer}} che il dispositivo sta per essere spedito e consentire loro di tracciare la consegna. Quando {{site.data.keyword.BluSoftlayer}} riceve il dispositivo, i tecnici si collegano ad esso nel rack dedicato. Quando il dispositivo è collegato, il ticket viene aggiornato per fornirti un link alle tue credenziali di accesso alla destinazione iSCSI.
 
 ## Richiesta di una restituzione
 Se hai fornito un indirizzo di restituzione e hai incluso l'etichetta di spedizione prepagata nell'imballaggio, puoi richiedere che il dispositivo ti venga restituito in qualsiasi momento durante il periodo di trasferimento di due settimane. Puoi inviare la richiesta tramite [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
 
 1. Seleziona **Storage** > **Data Migration** > **Data Transfer**.
-2. Dal menu **Action** del tuo dispositivo, seleziona **request return**.  
+2. Dal menu **Action** del tuo dispositivo, seleziona **request return**. 
 
 Questo avvisa i tecnici {{site.data.keyword.BluSoftlayer}} che desideri che il dispositivo venga disconnesso e che ti venga rispedito.
 
 ## Richiesta di un'estensione
-Dopo il tuo periodo gratuito di due settimane, se hai ancora bisogno di usare il nostro dispositivo, devi richiedere un'estensione tramite [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Questo avvisa i tecnici {{site.data.keyword.BluSoftlayer}} che desideri estendere il tempo di connessione del dispositivo.  
+Dopo il tuo periodo gratuito di due settimane, se hai ancora bisogno di usare il nostro dispositivo, devi richiedere un'estensione tramite [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Questo avvisa i tecnici {{site.data.keyword.BluSoftlayer}} che desideri estendere il tempo di connessione del dispositivo. 
 
 1. Seleziona **Storage** > **Data Migration** > **Data Transfer**
-2. Nel menu **Action** per il dispositivo, seleziona **request extension**.  
+2. Nel menu **Action** per il dispositivo, seleziona **request extension**. 
 
 Ogni settimana extra comporta un costo di servizio di $25 che deve essere pagato. La tua richiesta di estensione potrebbe essere negata, a seconda dello spazio disponibile nel data center. Quando la richiesta viene accolta, il ticket viene aggiornato.
 

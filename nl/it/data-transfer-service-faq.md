@@ -2,12 +2,12 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-08-08"
 
 ---
 
 
-# Domande frequenti (FAQ, Frequently Asked Questions)
+# Domande frequenti (FAQ)
 
 ## Cos'è il trasferimento dati?
 
@@ -43,9 +43,9 @@ Utilizza le seguenti linee guida quando selezioni un dispositivo o un disco (CD 
 
    - I dischi devono essere inviati in custodie di tipo jewel case o astuccio porta CD o in un contenitore simile. Se vuoi inviare più dischi, mettili insieme in una singola scatola o custodia di tipo astuccio porta CD.
 
-   - Ogni disco deve essere etichettato in modo chiaro ed univoco. 
+   - Ogni disco deve essere etichettato in modo chiaro ed univoco.
 
-## È possibile riavere il dispositivo prima, o farlo stare più a lungo, di due settimane? 
+## È possibile riavere il dispositivo prima, o farlo stare più a lungo, di due settimane?
 
 Sì, il tuo hardware o i tuoi dischi possono essere restituiti in qualsiasi momento oppure possono restare connessi più a lungo, se necessario. Per richiedere una restituzione o un'estensione, aggiungi un commento al ticket di richiesta di trasferimento dati originale con la richiesta appropriata. Se richiedi una restituzione, {{site.data.keyword.BluSoftlayer}} disconnette e restituisce l'hardware o i dischi all'indirizzo di restituzione fornito nella richiesta originale utilizzando le etichette di spedizione prepagate e l'imballaggio da te forniti.
 
@@ -55,7 +55,7 @@ Ciascuno stato nel ticket di trasferimento dati indica la fase del processo di t
 
 |Stato 	| Definizione |
 |---------| -----------|
-|`Sent To SoftLayer` | La richiesta di trasferimento dati è stata inviata dall'utente ed è in corso la spedizione dell'hardware o dei dischi al data center selezionato.|
+|`Sent To SoftLayer` |La richiesta di trasferimento dati è stata inviata dall'utente ed è in corso la spedizione dell'hardware o dei dischi al data center selezionato.|
 |`Received by SoftLayer` |	La spedizione è stata ricevuta dal data center, al dispositivo è stato assegnato un numero di serie e ne è stata eseguita la scansione nel sistema {{site.data.keyword.BluSoftlayer}}.|
 |`Connect` |	L'hardware o il disco sono connessi al dispositivo.|
 |`Connected` |	Una destinazione iSCSI viene creata per il dispositivo.|
