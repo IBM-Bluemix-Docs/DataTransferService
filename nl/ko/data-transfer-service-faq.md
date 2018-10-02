@@ -2,12 +2,12 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-08-08"
 
 ---
 
 
-# 자주 묻는 질문(FAQ)
+# FAQ
 
 ## 데이터 전송이란?
 
