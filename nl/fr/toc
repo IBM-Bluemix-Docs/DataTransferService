@@ -20,5 +20,5 @@ IBM Cloud Storage - Service de transfert de données
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    data-transfer-service-faq.md
+    faqs.md
     {: .navgroup-end}
