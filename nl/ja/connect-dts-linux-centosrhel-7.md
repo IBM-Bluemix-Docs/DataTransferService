@@ -7,27 +7,27 @@ lastupdated: "2018-09-10"
 ---
 {:pre: .pre}
 
-# 在 Linux for CentOS/RHEL 7 中連接至 DTS 裝置
+# CentOS/RHEL 7 対応の Linux での DTS デバイスへの接続
 
-若要與 Linux 型作業系統中的 iSCSI LUN 互動，使用者必須在終端機中輸入一系列指令來連接至 LUN。用來在 Linux 型作業系統中與 iSCSI LUN 互動的工具，取決於裝置上安裝的作業系統類型及版本。
+Linux ベースのオペレーティング・システムで iSCSI LUN を操作するには、端末で一連のコマンドを入力して LUN に接続する必要があります。 Linux ベースの OS で iSCSI LUN を操作するために使用するツールは、デバイスにインストールされている OS のタイプとバージョンによって異なります。
 
-## 在 CentOS 7 及 RHEL 7 中配置連線
+## CentOS 7 と RHEL 7 での接続の構成
 
-1. 安裝適用於 Linux 的 iSCSI 啟動器及多路徑對映程式公用程式。
+1. Linux のユーティリティーの iSCSI イニシエーターとマルチパス・マッパーをインストールします。
    ```
    yum -y install iscsi-initiator-utils device-mapper device-mapper-multipath
    ```
    {: pre}
 
-2. 建立 `iscsid.conf` 配置檔。
+2. `iscsid.conf` 構成ファイルを作成します。
 
-3. 備份原始配置。
+3. 元の構成をバックアップします。
    ```
    cp /etc/iscsi/iscsid.conf{,.save}
    ```
    {: pre}
 
-4. 使用您偏好的文字編輯器開啟 `/etc/iscsi/iscsid.conf`，將內容取代為下列程式碼：
+4. 任意のテキスト・エディターで `/etc/iscsi/iscsid.conf` を開き、その内容を以下のコードに置き換えます。
    ```
    node.startup = automatic
    node.session.auth.username = ISCSI_USER
@@ -47,25 +47,25 @@ lastupdated: "2018-09-10"
    ```
    {: pre}
 
-5. 啟動 iSCSI。<br/>
+5. iSCSI を開始します。<br/>
    ```
    systemctl start iscsi.service
    ```
    {: pre}
 
-6. 針對 iSCSI 目標主機執行探索。<br/>
+6. iscsi ターゲット・ホストに対してディスカバリーを実行します。<br/>
    ```
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
 
-7. 連接至 iSCSI 目標主機。<br/>
+7. iscsi ターゲット・ホストに接続します。<br/>
    ```
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```
    {: pre}
 
-8. 重新啟動 iSCSI 服務。因為 `node.startup` 在 `iscsid.conf` 中已設為自動，所以它會自動登入目標主機。<br/>
+8. iSCSI サービスを再始動します。 `iscsid.conf` で `node.startup` が automatic に設定されているため、ターゲット・ホストに自動的にログインします。<br/>
    ```
    systemctl restart iscsi.service
    ```
