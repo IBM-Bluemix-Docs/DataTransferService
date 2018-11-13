@@ -2,19 +2,21 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-11-05"
 
 ---
-
+{:faq: data-hd-content-type='faq'}
 
 # Perguntas frequentes
 
 ## O que é Data Transfer?
+{: faq}
 
 Esse serviço permite que os usuários autorizados (geralmente o administrador da conta) enviem dispositivos compatíveis para um
 dos data centers do {{site.data.keyword.BluSoftlayer_full}} para que sejam conectados diretamente à rede da conta. O dispositivo é hospedado em um rack dedicado e é montado como um destino iSCSI por duas semanas. Durante esse período, o administrador pode acessar o dispositivo na rede para usá-lo com outros dispositivos e serviços na conta. Após o período de duas semanas, uma extensão pode ser solicitada para manter o dispositivo conectado à rede. Caso contrário, o dispositivo é retornado para a parte especificada na solicitação ou o dispositivo é destruído no local.
 
 ## Um dispositivo para a transferência de dados pode ser enviado internacionalmente?
+{: faq}
 
 O hardware e os discos podem ser enviados nacionalmente e internacionalmente para qualquer um dos data centers do
 {{site.data.keyword.BluSoftlayer}}. No entanto, você, como Cliente, é responsável por:
@@ -35,6 +37,8 @@ retorno não for solicitado, o dispositivo será destruído.
 
 
 ## Quais os tipos de dispositivos podem ser enviados com uma solicitação de transferência de dados?
+{: faq}
+
 Use as diretrizes a seguir ao selecionar um dispositivo ou um disco (CD ou DVD) para enviar para a transferência de dados:
 
 - **Requisitos de hardware**
@@ -54,6 +58,7 @@ Use as diretrizes a seguir ao selecionar um dispositivo ou um disco (CD ou DVD) 
    - Cada disco deve estar rotulado com clareza e de forma exclusiva.
 
 ## O dispositivo pode ser enviado de volta mais cedo ou pode ficar mais de duas semanas?
+{: faq}
 
 Sim, seu hardware ou discos poderão ser retornados a qualquer momento ou poderão ficar conectados mais tempo, se necessário. Para solicitar um retorno ou uma extensão, inclua um comentário no chamado da solicitação de transferência de dados original com a solicitação apropriada. Se você solicitar um retorno, o {{site.data.keyword.BluSoftlayer}} desconectará e retornará o hardware ou os discos para o
 endereço de retorno fornecido na solicitação original usando os rótulos de remessa pré-pagos e o pacote
