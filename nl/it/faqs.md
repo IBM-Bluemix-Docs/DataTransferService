@@ -2,18 +2,20 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-11-05"
 
 ---
-
+{:faq: data-hd-content-type='faq'}
 
 # Domande frequenti (FAQ)
 
 ## Cos'è il trasferimento dati?
+{: faq}
 
 Questo servizio consente agli utenti autorizzati (di norma l'amministratore dell'account) di inviare dei dispositivi compatibili a uno dei data center {{site.data.keyword.BluSoftlayer_full}} perché siano connessi direttamente alla rete dell'account. Il dispositivo è alloggiato in un rack dedicato ed è montato come una destinazione iSCSI per due settimane. Durante tale periodo, l'amministratore può accedere al dispositivo sulla rete per utilizzarlo con gli altri dispositivi e servizi nell'account. Dopo il periodo di due settimane, è possibile richiedere un'estensione per tenere il dispositivo connesso alla rete. In caso contrario, il dispositivo viene restituito alla parte specificata nella richiesta oppure viene distrutto in loco.
 
 ## Posso fare una spedizione internazionale di un dispositivo per il trasferimento dati?
+{: faq}
 
 È possibile fare una spedizione sia domestica che internazionale di hardware e dischi a qualsiasi data center {{site.data.keyword.BluSoftlayer}}. Tuttavia, in quanto cliente, è tua responsabilità:
 
@@ -27,6 +29,8 @@ Includi un'etichetta di spedizione di restituzione prepagata e tutti i documenti
 
 
 ## Quali tipi di dispositivi posso essere inviati con una richiesta di trasferimento dati?
+{: faq}
+
 Utilizza le seguenti linee guida quando selezioni un dispositivo o un disco (CD o DVD) per l'invio per il trasferimento dati:
 
 - **Requisiti hardware**
@@ -46,6 +50,7 @@ Utilizza le seguenti linee guida quando selezioni un dispositivo o un disco (CD 
    - Ogni disco deve essere etichettato in modo chiaro ed univoco.
 
 ## È possibile riavere il dispositivo prima, o farlo stare più a lungo, di due settimane?
+{: faq}
 
 Sì, il tuo hardware o i tuoi dischi possono essere restituiti in qualsiasi momento oppure possono restare connessi più a lungo, se necessario. Per richiedere una restituzione o un'estensione, aggiungi un commento al ticket di richiesta di trasferimento dati originale con la richiesta appropriata. Se richiedi una restituzione, {{site.data.keyword.BluSoftlayer}} disconnette e restituisce l'hardware o i dischi all'indirizzo di restituzione fornito nella richiesta originale utilizzando le etichette di spedizione prepagate e l'imballaggio da te forniti.
 
