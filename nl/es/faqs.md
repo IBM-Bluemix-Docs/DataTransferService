@@ -2,18 +2,20 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-11-05"
 
 ---
-
+{:faq: data-hd-content-type='faq'}
 
 # Preguntas más frecuentes
 
 ## ¿Qué es la transferencia de datos?
+{: faq}
 
 Este servicio permite que los usuarios autorizados (generalmente el administrador de la cuenta) envíen dispositivos compatibles a uno de los centros de datos de {{site.data.keyword.BluSoftlayer_full}} para conectarlos directamente a la red de la cuenta. El dispositivo está alojado en un bastidor dedicado y montado como un destino iSCSI durante dos semanas. Durante ese período, el administrador puede acceder al dispositivo de la red para utilizarlo con otros dispositivos y servicios de la cuenta. Después del período de dos semanas, puede solicitarse una ampliación para mantener el dispositivo conectado a la red. De lo contrario, el dispositivo se devuelve a la parte especificada en la solicitud o se destruye in situ.
 
 ## ¿Puede hacerse un envío internacional de un dispositivo para la transferencia de datos?
+{: faq}
 
 El hardware y los discos pueden enviarse a nivel nacional como internacional a cualquiera de los centros de datos de {{site.data.keyword.BluSoftlayer}}. Sin embargo, el cliente es responsable de:
 
@@ -27,6 +29,8 @@ Incluya una etiqueta de envío de devolución prepagada y todos los documentos d
 
 
 ## ¿Qué tipos de dispositivos pueden enviarse con una solicitud de transferencia de datos?
+{: faq}
+
 Utilice las siguientes directrices al seleccionar un dispositivo o disco (CD o DVD) para enviar a la transferencia de datos:
 
 - **Requisitos de hardware**
@@ -46,6 +50,7 @@ Utilice las siguientes directrices al seleccionar un dispositivo o disco (CD o D
    - Cada disco debe etiquetarse de forma clara y única.
 
 ## ¿Puede devolverse el dispositivo antes o puede estarse más de dos semanas?
+{: faq}
 
 Sí, se pueden devolver el hardware o los discos en cualquier momento o tenerlos conectados durante más tiempo si es necesario. Para solicitar una devolución o una ampliación, añada un comentario a la incidencia de solicitud de transferencia de datos original con la solicitud correspondiente. Si solicita una devolución, {{site.data.keyword.BluSoftlayer}} desconecta y devuelve el hardware o discos a la dirección de devolución proporcionada en la solicitud original mediante las etiquetas de envío prepagadas y con el embalaje proporcionado.
 

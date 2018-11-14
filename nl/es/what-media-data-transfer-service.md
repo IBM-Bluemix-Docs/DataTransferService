@@ -13,7 +13,7 @@ Con el servicio de transferencia de datos, puede enviar dispositivos compatibles
 
 ## Requisitos de hardware
 1.    El dispositivo debe tener una fuente de alimentación que sea compatible con 208v/220v
-2.    El dispositivo debe tener un conector que se ajuste al enchufe estándar de 120v (NEMA 5-15P)
+2.    El dispositivo debe tener un conector de alimentación que se ajuste al enchufe estándar de 120v (NEMA 5-15P)
 3.    El dispositivo debe ser compatible con USB 2.0 (ahora también se admite 3.0)
 4.    El dispositivo debe incluir un cable USB con un conector USB A macho (conector USB estándar que se ajusta a la mayoría de los sistemas)
 5.    CD/DVD
