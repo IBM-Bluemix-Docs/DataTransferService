@@ -2,18 +2,20 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-11-05"
 
 ---
-
+{:faq: data-hd-content-type='faq'}
 
 # Häufig gestellte Fragen
 
 ## Was ist Data Transfer?
+{: faq}
 
 Mit diesem Service können berechtigte Benutzer (in der Regel der Kontoadministrator) kompatible Einheiten an eines der {{site.data.keyword.BluSoftlayer_full}}-Rechenzentren senden, damit sie direkt mit dem Kontonetz verbunden werden. Die Einheit befindet sich in einem dedizierten Rack und ist für einen Zeitraum von zwei Wochen als iSCSI-Ziel angehängt. In diesem Zeitraum kann der Administrator die Einheit im Netz aufrufen und zusammen mit anderen Einheiten und Services in dem zugehörigen Konto nutzen. Nach Ablauf der zwei Wochen kann eine Verlängerung angefordert werden, damit die Einheit weiterhin mit dem Netz verbunden bleibt. Andernfalls wird die Einheit entweder an die Partei zurückgegeben, die beim Erstellen der Anforderung angegeben wurde, oder die Einheit wird vor Ort vernichtet.
 
 ## Kann eine Einheit für Data Transfer international versendet werden?
+{: faq}
 
 Hardware und Datenträger können an jedes der {{site.data.keyword.BluSoftlayer}}-Rechenzentren im In- und Ausland versendet werden. Dabei sind Sie als Kunde für Folgendes verantwortlich:
 
@@ -27,6 +29,8 @@ Legen Sie Ihrer Sendung ein freigemachtes Rücksendeetikett sowie alle zugehöri
 
 
 ## Welche Einheitentypen können mit einer Data Transfer-Anforderung gesendet werden?
+{: faq}
+
 Halten Sie beim Auswählen einer Einheit oder eines Datenträgers (CD oder DVD) zum Einsenden für Data Transfer die folgenden Richtlinien ein:
 
 - **Hardwarevoraussetzungen**
@@ -46,6 +50,7 @@ Halten Sie beim Auswählen einer Einheit oder eines Datenträgers (CD oder DVD) 
    - Jeder Datenträger muss gut lesbar und eindeutig beschriftet sein.
 
 ## Kann die Einheit schon vor der zweiwöchigen Frist zurückgesendet oder länger als zwei Wochen aufbewahrt werden?
+{: faq}
 
 Ja, Ihre Hardware oder Datenträger können bei Bedarf an einem beliebigen Zeitpunkt zurückgesandt werden oder über den üblichen Zeitraum hinaus verbunden bleiben. Um eine frühere Rückgabe oder längere Bereitstellung anzufordern, fügen Sie im ursprünglichen Ticket der Data Transfer-Anforderung einen entsprechenden Kommentar hinzu. Wenn die Rücksendung gewünscht ist, entnimmt {{site.data.keyword.BluSoftlayer}} die Hardware bzw. die Datenträger aus dem System und sendet sie unter Verwendung der von Ihnen bereitgestellten Verpackung und der freigemachten Versandaufkleber an die Rücksendeadresse, die in der ursprünglichen Anforderung angegeben wurde.
 
