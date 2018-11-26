@@ -2,18 +2,20 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-11-05"
 
 ---
-
+{:faq: data-hd-content-type='faq'}
 
 # Foire aux questions
 
 ## Qu'est-ce qu'un transfert de données ?
+{: faq}
 
 Ce service permet à des utilisateurs autorisés (généralement l'administrateur du compte) d'envoyer des périphériques compatibles vers l'un des centres de données {{site.data.keyword.BluSoftlayer_full}} pour qu'ils se connectent directement au réseau du compte. Le périphérique est hébergé dans une armoire dédiée et est monté comme cible iSCSI pendant deux semaines. Au cours de cette période, l'administrateur peut accéder au périphérique sur le réseau pour pouvoir utiliser les autres périphériques et/ou services sur le compte. A l'issue de cette période, une extension peut être demandée pour que le périphérique reste connecté sur le réseau. Sinon, il est renvoyé à l'adresse spécifiée dans la demande, ou détruit sur site.
 
 ## Un périphérique peut-il être expédié pour transfert de données à l'étranger ?
+{: faq}
 
 Le matériel et les disques peuvent être expédiés à l'échelle nationale et internationale vers n'importe lequel des centres de données {{site.data.keyword.BluSoftlayer}}. Toutefois, en tant que client, vous devez :
 
@@ -27,6 +29,8 @@ Incluez une étiquette de retour prépayée, ainsi que tous les documents d'expo
 
 
 ## Quels types de périphérique peuvent être envoyés avec une demande de transfert de données ?
+{: faq}
+
 Suivez les instructions ci-dessous lorsque vous sélectionnez un périphérique ou un disque (CD ou DVD) à des fins de transfert de données :
 
 - **Exigences liées au matériel**
@@ -46,6 +50,7 @@ Suivez les instructions ci-dessous lorsque vous sélectionnez un périphérique 
    - Chaque disque doit être étiqueté clairement et de manière unique.
 
 ## Le périphérique peut-il être renvoyé plus rapidement ou peut-il rester connecté plus longtemps ?
+{: faq}
 
 Oui, votre matériel ou vos disques peuvent être renvoyés n'importe quand ou peuvent rester connectés plus longtemps si besoin. Si vous souhaitez demander une extension, ajoutez un commentaire au ticket de demande de transfert de données d'origine en indiquant clairement votre demande. Si vous demandez le retour, {{site.data.keyword.BluSoftlayer}} procède à la déconnexion et au renvoi du matériel ou des disques à l'adresse d'expédition que vous avez renseignée dans la demande d'origine en utilisant l'étiquette prépayée et le colis fournis.
 
