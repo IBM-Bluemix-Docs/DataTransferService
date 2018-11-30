@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-11-30"
 
 ---
 {:pre: .pre}
@@ -53,19 +53,19 @@ To interact with an iSCSI LUN in Linux-based operating systems, users must conne
    ```
    {: pre}
 
-6. Run a discovery against the iscsi target host.<br/>
+6. Run a discovery against the iSCSI target host.<br/>
    ```
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
 
-7. Connect to the iscsi target host.<br/>
+7. Connect to the iSCSI target host.<br/>
    ```
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```
    {: pre}
 
-8. Restart the iSCSI  service. Because `node.startup` is set to automatic in `iscsid.conf` it automatically logs in to the target host.<br/>
+8. Restart the iSCSI  service. Because `node.startup` is set to automatic in `iscsid.conf`, it automatically logs in to the target host.<br/>
    ```
    systemctl restart iscsi.service
    ```
