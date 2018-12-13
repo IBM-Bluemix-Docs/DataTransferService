@@ -2,14 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-30"
+lastupdated: "2018-12-13"
 
 ---
 {:pre: .pre}
 
-# Connecting to DTS Device in Linux for CentOS/RHEL 7
+# Connecting to DTS Device in Linux
 
-To interact with an iSCSI LUN in Linux-based operating systems, users must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN in a Linux-based OS is dependent upon the type and version of the OS that is installed on the device.
+To interact with an iSCSI LUN in Linux-based operating systems, users must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN is dependent upon the type and version of the OS that is installed on the device.
 
 ## Configuring connection in CentOS 7 and RHEL 7
 
