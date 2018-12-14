@@ -2,14 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-12-13"
 
 ---
 {:pre: .pre}
 
-# Verbindung zu DTS-Einheit unter Linux for CentOS/RHEL 7 herstellen
+# Verbindung zu DTS-Einheit unter Linux herstellen
 
-Für die Interaktion mit einem iSCSI-LUN unter Linux-basierten Betriebssystemen müssen Sie die Verbindung zum LUN herstellen, indem Sie eine Reihe von Befehlen in einem Terminal absetzen. Welches Tool für die Interaktion mit einem iSCSI-LUN unter einem Linux-basierten Betriebssystem verwendet wird, hängt vom Typ und von der Version des in der betreffenden Einheit installierten Betriebssystems ab.
+Für die Interaktion mit einem iSCSI-LUN unter Linux-basierten Betriebssystemen müssen Sie die Verbindung zum LUN herstellen, indem Sie eine Reihe von Befehlen in einem Terminal absetzen. Welches Tool für die Interaktion mit einem iSCSI-LUN verwendet wird, hängt vom Typ und von der Version des in der betreffenden Einheit installierten Betriebssystems ab.
 
 ## Verbindung in CentOS 7 und RHEL 7 konfigurieren
 
