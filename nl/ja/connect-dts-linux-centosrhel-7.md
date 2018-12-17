@@ -2,14 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-12-13"
 
 ---
 {:pre: .pre}
 
-# CentOS/RHEL 7 対応の Linux での DTS デバイスへの接続
+# Linux での DTS デバイスへの接続
 
-Linux ベースのオペレーティング・システムで iSCSI LUN を操作するには、端末で一連のコマンドを入力して LUN に接続する必要があります。 Linux ベースの OS で iSCSI LUN を操作するために使用するツールは、デバイスにインストールされている OS のタイプとバージョンによって異なります。
+Linux ベースのオペレーティング・システムで iSCSI LUN を操作するには、端末で一連のコマンドを入力して LUN に接続する必要があります。 iSCSI LUN を操作するために使用するツールは、デバイスにインストールされている OS のタイプとバージョンによって異なります。
 
 ## CentOS 7 と RHEL 7 での接続の構成
 
@@ -53,13 +53,13 @@ Linux ベースのオペレーティング・システムで iSCSI LUN を操作
    ```
    {: pre}
 
-6. iscsi ターゲット・ホストに対してディスカバリーを実行します。<br/>
+6. iSCSI ターゲット・ホストに対してディスカバリーを実行します。<br/>
    ```
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
 
-7. iscsi ターゲット・ホストに接続します。<br/>
+7. iSCSI ターゲット・ホストに接続します。<br/>
    ```
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```
