@@ -2,14 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-12-13"
 
 ---
 {:pre: .pre}
 
-# 在 Linux for CentOS/RHEL 7 中連接至 DTS 裝置
+# 在 Linux 中連接至 DTS 裝置
 
-若要與 Linux 型作業系統中的 iSCSI LUN 互動，使用者必須在終端機中輸入一系列指令來連接至 LUN。用來在 Linux 型作業系統中與 iSCSI LUN 互動的工具，取決於裝置上安裝的作業系統類型及版本。
+若要與 Linux 型作業系統中的 iSCSI LUN 互動，使用者必須在終端機中輸入一系列指令來連接至 LUN。用來與 iSCSI LUN 互動的工具，取決於裝置上安裝的作業系統類型及版本。
 
 ## 在 CentOS 7 及 RHEL 7 中配置連線
 
