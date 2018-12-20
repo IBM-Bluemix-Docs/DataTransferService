@@ -2,14 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-12-13"
 
 ---
 {:pre: .pre}
 
-# Connexion au périphérique DTS sous Linux pour CentOS/RHEL 7
+# Connexion au périphérique DTS sous Linux
 
-Pour interagir avec un numéro d'unité logique iSCSI dans des systèmes d'exploitation de type Linux, les utilisateurs se connectent au numéro d'unité logique en saisissant une série de commandes dans le terminal. L'outil qui est utilisé pour interagir avec un numéro d'unité logique iSCSI dans un système d'exploitation de type Linux dépend du type et de la version du système d'exploitation qui est installé sur le terminal.
+Pour interagir avec un numéro d'unité logique iSCSI dans des systèmes d'exploitation de type Linux, les utilisateurs se connectent au numéro d'unité logique en saisissant une série de commandes dans le terminal. L'outil qui est utilisé pour interagir avec un numéro d'unité logique iSCSI dépend du type et de la version du système d'exploitation qui est installé sur le terminal.
 
 ## Configuration de la connexion dans CentOS 7 et RHEL 7
 
@@ -53,13 +53,13 @@ Pour interagir avec un numéro d'unité logique iSCSI dans des systèmes d'explo
    ```
    {: pre}
 
-6. Exécutez une reconnaissance par rapport à l'hôte cible iscsi.<br/>
+6. Exécutez une reconnaissance par rapport à l'hôte cible iSCSI.<br/>
    ```
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
 
-7. Connectez-vous à l'hôte cible iscsi.<br/>
+7. Connectez-vous à l'hôte cible iSCSI.<br/>
    ```
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```

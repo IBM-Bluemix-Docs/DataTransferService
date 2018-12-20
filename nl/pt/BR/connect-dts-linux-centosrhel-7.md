@@ -2,14 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-12-13"
 
 ---
 {:pre: .pre}
 
-# Conectando-se ao dispositivo DTS no Linux for CentOS/RHEL 7
+# Conectando-se ao dispositivo DTS no Linux
 
-Para interagir com uma LUN iSCSI em sistemas operacionais baseados em Linux, os usuários devem se conectar ao LUN inserindo uma série de comandos no terminal. A ferramenta usada para interagir com uma LUN iSCSI em um S.O. baseado no Linux depende do tipo e da versão do S.O. instalado no dispositivo.
+Para interagir com uma LUN iSCSI em sistemas operacionais baseados em Linux, os usuários devem se conectar ao LUN inserindo uma série de comandos no terminal. A ferramenta que é usada para interagir com um LUN iSCSI depende do tipo e da versão do S.O. que está instalado no dispositivo.
 
 ## Configurando a conexão no CentOS 7 e no RHEL 7
 
@@ -53,19 +53,19 @@ Para interagir com uma LUN iSCSI em sistemas operacionais baseados em Linux, os 
    ```
    {: pre}
 
-6. Execute uma descoberta com relação ao host de destino iscsi.<br/>
+6. Execute uma descoberta com relação ao host de destino iSCSI.<br/>
    ```
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
 
-7. Conecte-se ao host de destino iscsi.<br/>
+7. Conecte-se ao host de destino iSCSI.<br/>
    ```
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```
    {: pre}
 
-8. Reinicie o serviço iSCSI. Como o `node.startup` está configurado como automático em `iscsid.conf`, ele efetua login automaticamente no host de destino.<br/>
+8. Reinicie o serviço iSCSI. Como `node.startup` está configurado como automático em `iscsid.conf`, ele efetua login automaticamente no host de destino.<br/>
    ```
    systemctl restart iscsi.service
    ```

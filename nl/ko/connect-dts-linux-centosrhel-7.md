@@ -2,14 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-09-10"
+lastupdated: "2018-12-13"
 
 ---
 {:pre: .pre}
 
-# Linux에서 CentOS/RHEL 7에 대한 DTS 디바이스에 연결
+# Linux에서 DTS 디바이스에 연결
 
-Linux 기반 운영 체제에서 iSCSI LUN과 상호작용하려면 사용자가 터미널에서 일련의 명령을 입력하여 LUN에 연결해야 합니다. Linux 기반 OS에서 iSCSI LUN과의 상호작용에 사용되는 도구는 디바이스에 설치된 OS의 유형과 버전에 따라 다릅니다.
+Linux 기반 운영 체제에서 iSCSI LUN과 상호작용하려면 사용자가 터미널에서 일련의 명령을 입력하여 LUN에 연결해야 합니다. iSCSI LUN과의 상호작용에 사용되는 도구는 디바이스에 설치된 OS의 유형과 버전에 따라 다릅니다.
 
 ## CentOS 7 및 RHEL 7에서 연결 구성
 
@@ -53,13 +53,13 @@ Linux 기반 운영 체제에서 iSCSI LUN과 상호작용하려면 사용자가
    ```
    {: pre}
 
-6. iscsi 대상 호스트에 대해 discovery를 실행하십시오.<br/>
+6. iSCSI 대상 호스트에 대해 discovery를 실행하십시오.<br/>
    ```
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
 
-7. iscsi 대상 호스트에 연결하십시오.<br/>
+7. iSCSI 대상 호스트에 연결하십시오.<br/>
    ```
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```
