@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Introdução ao serviço de transferência de dados
+{: #gettingstarted}
 
 Os clientes podem usar o serviço de transferência de dados do {{site.data.keyword.BluSoftlayer_full}} para enviar um
 dispositivo compatível com USB 2.0 ou USB 3.0, CDs e DVDs para um data center do {{site.data.keyword.BluSoftlayer}}. O
@@ -20,7 +21,7 @@ transferência de dados é ideal quando grandes quantias de dados precisam ser t
 
 **Nota**: essa tela está disponível apenas para o usuário principal da conta.
 
-1. Acesse o  [ {{site.data.keyword.slportal}} ](https://control.softlayer.com/){:new_window}  com suas credenciais exclusivas.
+1. Acesse o [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window} com suas credenciais exclusivas.
 2. Selecione **Armazenamento** > **Migração de dados** > **Transferência de dados** na Barra de navegação para acessar a tela Data Transfer Service. <br/>
 
 Na tela **Serviço de transferência de dados**, os usuários podem enviar uma solicitação de
@@ -29,7 +30,7 @@ do dispositivo e cancelar uma solicitação existente.
 
 ## Enviando uma solicitação de transferência de dados
 
-As solicitações de transferência de dados foram projetadas para permitir que as partes apropriadas em nossos data centers saibam esperar uma remessa de um cliente. As solicitações são enviadas por meio do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
+As solicitações de transferência de dados foram projetadas para permitir que as partes apropriadas em nossos data centers saibam esperar uma remessa de um cliente. As solicitações são submetidas por meio do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 
 Ao criar uma solicitação, lembre-se das diretrizes a seguir.
 
@@ -43,11 +44,11 @@ center.  Crie a etiqueta de remessa com o endereço do data center apropriado an
 
 Siga estas etapas para enviar uma solicitação de transferência de dados.
 
-1. Acesse a tela **Data Transfer Service** no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+1. Acesse a tela **Serviço de transferência de dados** no [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Clique em  ** Pedir solicitação de transferência de dados **.
 3. Preencha cada campo na seção **Informações do dispositivo** de acordo com a tabela 1.
 <table border="1">
-<caption>A Tabela 1 lista os nomes dos campos no formulário de solicitação à esquerda e a sua descrição à direita.</caption> 
+<caption>A Tabela 1 lista os nomes dos campos no formulário de solicitação à esquerda e a sua descrição à direita.</caption>
  <tr><th>Nome de Campo</th><th>Instruções</th></tr>
  <tr><td>Tipo de dispositivo</td><td>O tipo de dispositivo que é enviado para o destino. Se o tipo de dispositivo não estiver listado, selecione "Outro".</td></tr>
  <tr><td>Número de série</td><td> O número de série do dispositivo.</td></tr><tr><td>Descrição</td><td>Uma breve descrição do dispositivo. Os detalhes importantes a serem incluídos podem ser os fatores de identificação, como a cor, os rótulos ou os adesivos.</td></tr>
@@ -66,7 +67,7 @@ Após o envio da solicitação, o status do chamado da solicitação aparecerá 
 {{site.data.keyword.BluSoftlayer}} e anexe as informações sobre licença no chamado.
 
 Depois do recebimento do dispositivo, o status é atualizado para `Received by SoftLayer`. O status do
-chamado é atualizado novamente para `Connected` após um técnico do data center conectar o dispositivo à rede. 
+chamado é atualizado novamente para `Connected` após um técnico do data center conectar o dispositivo à rede.
 
 O período de transferência de dados iniciais é de duas semanas. Durante esse tempo, o acesso ao dispositivo é concedido apenas
 ao administrador da conta. Se você precisar de mais tempo, será possível solicitar uma extensão. Além disso, se você desejar que o
@@ -76,13 +77,11 @@ solicitação.
 
 ## Acessando a tela Remessas
 
-A tela Remessas no
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} exibe todas as remessas
-associadas às solicitações de serviço de transferência de dados. Nessa tela, é possível visualizar remessas e confirmar remessas de retorno após o recebimento. 
+A tela Remessas dentro do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window} exibe todas as remessas que estão associadas a solicitações de serviço de transferência de dados. Nessa tela, é possível visualizar remessas e confirmar remessas de retorno após o recebimento.
 
 Para acessar a tela Remessas:
 
-1. Acesse o [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} usando suas credenciais exclusivas.
+1. Acesse o [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window} usando suas credenciais exclusivas.
 2. Selecione **Conta** > **Gerenciar** > **Remessas** na Barra de Navegação.
 
 Na tela Remessas, todas as solicitações de remessa dos últimos 30 dias são exibidas com detalhes. As remessas podem

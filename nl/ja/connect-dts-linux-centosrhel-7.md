@@ -1,15 +1,16 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-13"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
 
-# Linux での DTS デバイスへの接続
+# Linux for CentOS/RHEL 7 での DTS デバイスへの接続
+{: #mountingDTSlinux}
 
-Linux ベースのオペレーティング・システムで iSCSI LUN を操作するには、端末で一連のコマンドを入力して LUN に接続する必要があります。 iSCSI LUN を操作するために使用するツールは、デバイスにインストールされている OS のタイプとバージョンによって異なります。
+Linux ベースのオペレーティング・システムで iSCSI LUN を操作するには、端末で一連のコマンドを入力して LUN に接続する必要があります。 Linux ベースの OS で iSCSI LUN を操作するために使用するツールは、デバイスにインストールされている OS のタイプとバージョンによって異なります。
 
 ## CentOS 7 と RHEL 7 での接続の構成
 

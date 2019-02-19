@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
+
 
 # Conexión al dispositivo DTS en Windows con software iSCSI
+{: #mountingDTSWindows}
 
 Para interactuar con un LUN iSCSI en Windows, los usuarios deben conectarse al almacenamiento mediante el iniciador de software iSCSI, una herramienta iSCSI propiedad de Microsoft. Para los usuarios de Windows Server 2008 o Windows Vista y versiones posteriores, el iniciador de software iSCSI está integrado en el sistema operativo. Los usuarios de Windows Server 2003, Windows XP y Windows 2000 deben descargar el iniciador antes de iniciar este procedimiento.
 

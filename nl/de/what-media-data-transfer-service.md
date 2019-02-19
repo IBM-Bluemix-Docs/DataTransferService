@@ -1,14 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Einführung in den Data Transfer-Service für Datenträger
- 
+{: #mediaDTS}
+
 Mit dem Data Transfer-Service können Sie eine mit USB 2.0 oder USB 3.0 kompatible Einheit, CDs und DVDs an ein {{site.data.keyword.BluSoftlayer_full}}-Rechenzentrum senden, die direkt mit Ihrem Netz verbunden werden sollen. Die Einheit befindet sich in einem dedizierten Rack und ist als iSCSI-Ziel angehängt. Laufwerke mit erweitertem Format (Advanced Format) werden jetzt ebenfalls unterstützt.
 
 ## Hardwarevoraussetzungen
@@ -34,7 +35,7 @@ Mit dem Data Transfer-Service können Sie eine mit USB 2.0 oder USB 3.0 kompatib
 - Abschließen geeigneter Vereinbarungen und Einholen erforderlicher Genehmigungen beim Benutzer des Kunden für alle Benutzerdaten, die der Kunde in die Hardware übertragen möchte.
 
 ## Anforderung erstellen
-Sie können eine Anforderung über das [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} übergeben.
+Sie können eine Anforderung über das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} übergeben. 
 
 1. Klicken Sie auf **Speicher** > **Data Migration** > **Data Transfer**.
 2. Klicken Sie auf **Data Transfer-Anforderung bestellen**.
@@ -53,18 +54,18 @@ Füllen Sie das Formular mit den folgenden Angaben für die Einheit aus:
 Mit dieser Anforderung wird ein Support-Ticket erstellt, um die {{site.data.keyword.BluSoftlayer}}-Techniker über den Versand der Einheit zu informieren und die Sendungsverfolgung zu ermöglichen. Wenn {{site.data.keyword.BluSoftlayer}} die Einheit erhält, wird sie von den Technikern mit dem dedizierten Rack verbunden. Nach dem Verbinden der Einheit wird das Ticket aktualisiert und enthält einen Link, über den Sie Ihre Anmeldeberechtigungsnachweise für das iSCSI-Ziel aufrufen können.
 
 ## Rücksendung anfordern
-Wenn Sie eine Rücksendeadresse angegeben und Ihrer Sendung einen freigemachten Versandaufkleber beigelegt haben, können Sie anfordern, dass die Einheit nach dem zweiwöchigen Übertragungszeitraum an Sie zurück gesendet wird. Die Anforderung kann über das [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} übergeben werden.
+Wenn Sie eine Rücksendeadresse angegeben und Ihrer Sendung einen freigemachten Versandaufkleber beigelegt haben, können Sie anfordern, dass die Einheit nach dem zweiwöchigen Übertragungszeitraum an Sie zurück gesendet wird. Sie können die Anforderung über das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} übergeben. 
 
 1. Wählen Sie **Speicher** > **Data Migration** > **Data Transfer** aus.
-2. Wählen Sie im Menü **Aktion** für die Einheit **Rücksendung anfordern** aus. 
+2. Wählen Sie im Menü **Aktion** für die Einheit **Rücksendung anfordern** aus.
 
 Durch diese Aktualisierung werden die {{site.data.keyword.BluSoftlayer}}-Techniker informiert, dass die Verbindung für Ihre Einheit getrennt und die Einheit an Sie zurück gesendet werden soll.
 
 ## Verlängerung anfordern
-Wenn Ihre Einheit über die kostenlose zweiwöchige Frist hinaus bereitgestellt werden soll, müssen Sie eine Verlängerung über das [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} anfordern. Durch diese Aktualisierung werden die {{site.data.keyword.BluSoftlayer}}-Techniker informiert, dass Ihre Einheit länger verbunden bleiben soll. 
+Wenn Ihre Einheit über die kostenlose zweiwöchige Frist hinaus bereitgestellt werden soll, müssen Sie eine Verlängerung über das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anfordern. Durch diese Aktualisierung werden die {{site.data.keyword.BluSoftlayer}}-Techniker informiert, dass Ihre Einheit länger verbunden bleiben soll.
 
 1. Wählen Sie **Speicher** > **Data Migration** > **Data Transfer** aus.
-2. Wählen Sie im Menü **Aktion** für die Einheit **Verlängerung anfordern** aus. 
+2. Wählen Sie im Menü **Aktion** für die Einheit **Verlängerung anfordern** aus.
 
 Für jede zusätzliche Woche fällt eine Servicegebühr von $ 25 an. Ihre Verlängerungsanforderung kann abgelehnt werden. Dies ist vom verfügbaren Speicherplatz im Rechenzentrum abhängig. Wenn die Anforderung genehmigt wird, wird das Ticket aktualisiert.
 

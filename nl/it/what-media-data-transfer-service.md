@@ -1,14 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Introduzione al servizio di trasferimento dati del supporto
- 
+{: #mediaDTS}
+
 Con il servizio di trasferimento dati, puoi inviare un dispositivo compatibile con USB 2.0 o 3.0, CD e DVD a un data center {{site.data.keyword.BluSoftlayer_full}} da connettere direttamente alla tua rete. Il dispositivo è alloggiato in un rack dedicato ed è montato come una destinazione iSCSI. Sono attualmente supportate anche le unità con formato avanzato.
 
 ## Requisiti hardware
@@ -34,7 +35,7 @@ Con il servizio di trasferimento dati, puoi inviare un dispositivo compatibile c
 - Disporre dei corretti accordi con e ottenere tutte le autorizzazioni richieste dall'utente del cliente per gli eventuali dati dell'utente che il cliente desidera trasferire all'hardware.
 
 ## Come effettuare una richiesta
-Puoi inviare una richiesta tramite [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
+Puoi inoltrare una richiesta tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}
 
 1. Fai clic su **Storage** > **Data Migration** > **Data Transfer**.
 2. Fai clic su **Order Data Transfer Request**.
@@ -53,18 +54,18 @@ Completa il modulo con i seguenti dati del dispositivo
 Questa richiesta crea automaticamente un ticket di supporto per avvisare i tecnici {{site.data.keyword.BluSoftlayer}} che il dispositivo sta per essere spedito e consentire loro di tracciare la consegna. Quando {{site.data.keyword.BluSoftlayer}} riceve il dispositivo, i tecnici si collegano ad esso nel rack dedicato. Quando il dispositivo è collegato, il ticket viene aggiornato per fornirti un link alle tue credenziali di accesso alla destinazione iSCSI.
 
 ## Richiesta di una restituzione
-Se hai fornito un indirizzo di restituzione e hai incluso l'etichetta di spedizione prepagata nell'imballaggio, puoi richiedere che il dispositivo ti venga restituito in qualsiasi momento durante il periodo di trasferimento di due settimane. Puoi inviare la richiesta tramite [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
+Se hai fornito un indirizzo di restituzione e hai incluso l'etichetta di spedizione prepagata nell'imballaggio, puoi richiedere che il dispositivo ti venga restituito in qualsiasi momento durante il periodo di trasferimento di due settimane. Puoi inoltrare la richiesta tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 
 1. Seleziona **Storage** > **Data Migration** > **Data Transfer**.
-2. Dal menu **Action** del tuo dispositivo, seleziona **request return**. 
+2. Dal menu **Action** del tuo dispositivo, seleziona **request return**.
 
 Questo avvisa i tecnici {{site.data.keyword.BluSoftlayer}} che desideri che il dispositivo venga disconnesso e che ti venga rispedito.
 
 ## Richiesta di un'estensione
-Dopo il tuo periodo gratuito di due settimane, se hai ancora bisogno di usare il nostro dispositivo, devi richiedere un'estensione tramite [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Questo avvisa i tecnici {{site.data.keyword.BluSoftlayer}} che desideri estendere il tempo di connessione del dispositivo. 
+Dopo il tuo periodo gratuito di due settimane, se hai ancora bisogno di usare il nostro dispositivo, devi richiedere un'estensione tramite il [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. Questo avvisa i tecnici {{site.data.keyword.BluSoftlayer}} che desideri estendere il tempo di connessione del dispositivo.
 
 1. Seleziona **Storage** > **Data Migration** > **Data Transfer**
-2. Nel menu **Action** per il dispositivo, seleziona **request extension**. 
+2. Nel menu **Action** per il dispositivo, seleziona **request extension**.
 
 Ogni settimana extra comporta un costo di servizio di $25 che deve essere pagato. La tua richiesta di estensione potrebbe essere negata, a seconda dello spazio disponibile nel data center. Quando la richiesta viene accolta, il ticket viene aggiornato.
 

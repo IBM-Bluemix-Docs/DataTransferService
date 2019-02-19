@@ -1,14 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Presentación del servicio de transferencia de datos
- 
+{: #mediaDTS}
+
 Con el servicio de transferencia de datos, puede enviar dispositivos compatibles con USB 2.0 o 3.0, CD y DVD a un centro de datos de {{site.data.keyword.BluSoftlayer_full}} que se vaya a conectar directamente a su red. El dispositivo está alojado en un bastidor dedicado y montado como un destino iSCSI. También se admiten unidades de formato avanzado.
 
 ## Requisitos de hardware
@@ -34,7 +35,7 @@ Con el servicio de transferencia de datos, puede enviar dispositivos compatibles
 - Disponer los acuerdos adecuados en su lugar y obtener todos los permisos necesarios del usuario del cliente para cualquier dato de usuario que el cliente desee transferir al hardware.
 
 ## Realizar una solicitud
-Puede enviar una solicitud a través del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
+Puede enviar una solicitud a través del [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}
 
 1. Pulse **Almacenamiento** > **Migración de datos** > **Transferencia de datos**.
 2. Pulse **Pedir solicitud de transferencia de datos**.
@@ -53,18 +54,18 @@ Complete el formulario con los siguientes datos del dispositivo
 La solicitud crea una incidencia de soporte para avisar a los técnicos de {{site.data.keyword.BluSoftlayer}} de que se está enviando el dispositivo y permitirles que realicen el seguimiento de la entrega. Cuando {{site.data.keyword.BluSoftlayer}} recibe el dispositivo, los técnicos los conectan a su bastidor dedicado. Cuando se conecta el dispositivo, la incidencia se actualiza para proporcionarle un enlace a las credenciales de inicio de sesión al destino iSCSI.
 
 ## Solicitud de un retorno
-Si proporcionó una dirección de devolución e incluyó la etiqueta de envío en el paquete, puede solicitar que se le devuelva el dispositivo en cualquier momento durante las dos semanas de la transferencia. Puede enviar la solicitud a través del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+Si proporcionó una dirección de devolución e incluyó la etiqueta de envío en el paquete, puede solicitar que se le devuelva el dispositivo en cualquier momento durante las dos semanas de la transferencia. Puede enviar la solicitud a través del [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 
 1. Seleccione **Almacenamiento** > **Migración de datos** > **Transferencia de datos**.
-2. En el menú **Acción** de su dispositivo, seleccione **solicitar devolución**. 
+2. En el menú **Acción** de su dispositivo, seleccione **solicitar devolución**.
 
 Esta actualización avisa a los técnicos de {{site.data.keyword.BluSoftlayer}} que desea que se desconecte el dispositivo y le sea enviado.
 
 ## Solicitud de una ampliación
-Después del período de dos semanas gratuito, si todavía necesita utilizar su dispositivo, debe solicitar una ampliación a través del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Esta actualización avisa a los de técnicos de {{site.data.keyword.BluSoftlayer}} que desea ampliar el tiempo en que el dispositivo está conectado. 
+Después del período de dos semanas gratuito, si todavía necesita utilizar su dispositivo, debe solicitar una ampliación a través del [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}. Esta actualización avisa a los de técnicos de {{site.data.keyword.BluSoftlayer}} que desea ampliar el tiempo en que el dispositivo está conectado.
 
 1. Seleccione **Almacenamiento** > **Migración de datos** > **Transferencia de datos**.
-2. En el menú **Acción** del dispositivo, seleccione **solicitar ampliación**. 
+2. En el menú **Acción** del dispositivo, seleccione **solicitar ampliación**.
 
 Cada semana adicional genera una tarifa de servicio de 25 $. Su solicitud de ampliación puede ser denegada en función del espacio disponible en el centro de datos. Cuando se otorga la solicitud, la incidencia se actualiza.
 

@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Iniciación al servicio de transferencia de datos
+{: #gettingstarted}
 
 Los clientes pueden utilizar el servicio de transferencia de datos de {{site.data.keyword.BluSoftlayer_full}} para enviar un dispositivo USB 2.0 o USB 3.0 compatible, CD y DVD a un centro de datos de {{site.data.keyword.BluSoftlayer}}. El dispositivo se conecta directamente a su red para que puedan controlar de forma remota la transferencia de datos. El dispositivo está alojado en un bastidor dedicado ubicado en el centro de datos del cliente y montado como un destino iSCSI. El servicio de transferencia de datos es ideal cuando es necesario transferir grandes cantidades de datos sin utilizar la red privada de {{site.data.keyword.BluSoftlayer}} y es un servicio que se ofrece de forma gratuita para todos los clientes de {{site.data.keyword.BluSoftlayer}}.
 
@@ -15,14 +16,14 @@ Los clientes pueden utilizar el servicio de transferencia de datos de {{site.dat
 
 **Nota**: Esta pantalla solo está disponible para el usuario maestro de la cuenta.
 
-1. Acceda al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} con sus credenciales exclusivas.
+1. Acceda al [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window} con sus credenciales exclusivas.
 2. Seleccione **Almacenamiento** > **Migración de datos** > **Transferencia de datos** desde la barra de navegación para acceder a la pantalla del servicio de transferencia de datos. <br/>
 
 En la pantalla del **servicio de transferencia de datos**, los usuarios pueden enviar una solicitud de transferencia de datos, ver los detalles de una solicitud, ver el historial de incidencias que está asociado al seguimiento del dispositivo y cancelar una solicitud existente.
 
 ## Envío de una solicitud de transferencia de datos
 
-Las solicitudes de transferencia de datos están diseñadas para permitir que las partes de nuestros centros de datos a las que corresponda sepan cuándo esperar un envío de un cliente. Las solicitudes se envían mediante el [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
+Las solicitudes de transferencia de datos están diseñadas para permitir que las partes de nuestros centros de datos a las que corresponda sepan cuándo esperar un envío de un cliente. Las solicitudes se envían mediante el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 
 Al crear una solicitud, tenga en cuenta las directrices siguientes.
 
@@ -34,11 +35,11 @@ Al crear una solicitud, tenga en cuenta las directrices siguientes.
 
 Siga estos pasos para enviar una solicitud de transferencia de datos.
 
-1. Acceda a la pantalla **Servicio de transferencia de datos** del [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+1. Acceda a la pantalla **Servicio de transferencia de datos** del [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Pulse **Pedir solicitud de transferencia de datos**.
 3. Rellene los campos del apartado **Información del dispositivo** según la tabla 1.
 <table border="1">
-<caption>La tabla 1 lista los nombres de los campos del formulario de solicitud a la izquierda y la descripción a la derecha.</caption> 
+<caption>La tabla 1 lista los nombres de los campos del formulario de solicitud a la izquierda y la descripción a la derecha.</caption>
  <tr><th>Nombre del campo</th><th>Instrucciones</th></tr>
  <tr><td>Tipo de dispositivo</td><td>El tipo de dispositivo que se envía al destino. Si el tipo de dispositivo no está en la lista, seleccione "Otros".</td></tr>
  <tr><td>Número de serie</td><td> El número de serie del dispositivo.</td></tr><tr><td>Descripción</td><td>Una breve descripción del dispositivo. Algunos de los detalles importantes que deben incluirse podrían ser identificar factores como el color y las etiquetas o pegatinas.</td></tr>
@@ -53,18 +54,18 @@ Siga estos pasos para enviar una solicitud de transferencia de datos.
 
 Después de enviar la solicitud, el estado de la incidencia de la solicitud aparecerá como `Enviado a SoftLayer`. Notifique a {{site.data.keyword.BluSoftlayer}} si un envío de importación o exportación requiere una licencia de un gobierno local y adjunte la información de licencia en la incidencia.
 
-Una vez que se recibe el dispositivo, el estado se actualiza a `Recibido de SoftLayer`. El estado de la incidencia se actualiza de nuevo a `Conectado` después de que un técnico de un centro de datos conecte el dispositivo a la red. 
+Una vez que se recibe el dispositivo, el estado se actualiza a `Recibido de SoftLayer`. El estado de la incidencia se actualiza de nuevo a `Conectado` después de que un técnico de un centro de datos conecte el dispositivo a la red.
 
 El período de transferencia de datos inicial es de dos semanas. Durante este tiempo, solo se permite que el administrador de la cuenta acceda al dispositivo. Si necesita más tiempo, puede solicitar una ampliación. Además, si desea que el dispositivo se envíe antes de dos semanas, puede solicitar la devolución. Debe enviar una notificación a {{site.data.keyword.IBM}} mediante [{{site.data.keyword.slportal}}](https://control.softlayer.com/) una vez que se complete la transferencia. A continuación, {{site.data.keyword.BluSoftlayer}} desconecta el dispositivo y lo devuelve o lo destruye, según lo que haya solicitado.
 
 
 ## Acceso a la pantalla de envíos
 
-La pantalla Envíos de [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} muestra todos los envíos asociados con las solicitudes de servicio de transferencia de datos. Desde esta pantalla, puede visualizar los envíos y confirmar los envíos de devolución una vez que se reciben. 
+La pantalla Envíos de [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window} muestra todos los envíos asociados con las solicitudes de servicio de transferencia de datos. Desde esta pantalla, puede visualizar los envíos y confirmar los envíos de devolución una vez que se reciben.
 
 Para acceder a la pantalla de envíos:
 
-1. Acceda al [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} utilizando sus credenciales exclusivas.
+1. Acceda al [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window} con sus credenciales exclusivas.
 2. Seleccione **Cuenta** > **Gestionar** > **Envíos** en la barra de navegación.
 
 En la pantalla de envíos, se muestran todas las solicitudes de envío dentro de los últimos 30 días junto con los detalles. Los envíos pueden [ordenarse o filtrarse](sort-or-filter-shipments-list.html) por estado, edad o detalles de envío concretos. Además, puede confirmar el acuse de recibo de envíos de devolución en esta pantalla. ![Pantalla de envíos](/images/DTSShipmentScreen1.png)

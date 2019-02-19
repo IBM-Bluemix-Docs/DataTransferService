@@ -1,14 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Introduzindo o serviço de transferência de dados de mídia
- 
+{: #mediaDTS}
+
 Com o serviço de transferência de dados, é possível enviar um dispositivo compatível com USB 2.0 ou 3.0, CDs e DVDs
 para um data center do {{site.data.keyword.BluSoftlayer_full}} para serem conectados diretamente à sua rede. O dispositivo é hospedado em um rack dedicado e é montado como um destino iSCSI. Unidades de formato avançado agora também são suportadas.
 
@@ -43,7 +44,7 @@ de importação e de exportação.
 do usuário que o Cliente desejar transferir para o hardware.
 
 ## Fazendo uma solicitação
-É possível enviar uma solicitação por meio do  [ {{site.data.keyword.slportal}} ](https://control.softlayer.com/){:new_window}
+É possível enviar uma solicitação por meio do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}
 
 1. Clique em  ** Armazenamento **  >  ** Migração de Dados **  >  ** Transferência de Dados **.
 2. Clique em  ** Pedir solicitação de transferência de dados **.
@@ -66,22 +67,20 @@ link para as suas credenciais de logon para o destino iSCSI.
 
 ## Solicitando uma Devolução
 Se você forneceu um endereço de retorno e incluiu a etiqueta de remessa pré-paga no pacote, será possível
-solicitar que o dispositivo seja enviado de volta a qualquer momento durante o período de transferência de duas semanas. É
-possível enviar a solicitação por meio do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}.
+solicitar que o dispositivo seja enviado de volta a qualquer momento durante o período de transferência de duas semanas. É possível enviar a solicitação por meio do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 
 1. Selecione  ** Armazenamento **  >  ** Migração de Dados **  >  ** Transferência de Dados **.
-2. No menu **Ação** do dispositivo, selecione **Solicitação de retorno**. 
+2. No menu **Ação** do dispositivo, selecione **Solicitação de retorno**.
 
 Essa atualização alerta os técnicos do {{site.data.keyword.BluSoftlayer}} de que você deseja que o dispositivo
 seja desconectado e enviado de volta.
 
 ## Solicitando uma Extensão
-Após o período gratuito de duas semanas, se você ainda precisar usar o dispositivo, deverá solicitar uma extensão por meio
-do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Essa atualização
-alerta os técnicos do {{site.data.keyword.BluSoftlayer}} de que você deseja estender o tempo de conexão do dispositivo. 
+Após seu período gratuito de duas semanas, se você ainda requerer o uso de seu dispositivo, deverá solicitar uma extensão por meio do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}. Essa atualização
+alerta os técnicos do {{site.data.keyword.BluSoftlayer}} de que você deseja estender o tempo de conexão do dispositivo.
 
 1. Selecione  ** Armazenamento **  >  ** Migração de Dados **  >  ** Transferência de Dados **
-2. No menu **Ação** para o dispositivo, selecione **Solicitação de extensão**. 
+2. No menu **Ação** para o dispositivo, selecione **Solicitação de extensão**.
 
 Cada semana extra incorre em uma taxa de serviço de $ 25 que deve ser paga. A solicitação de extensão pode ser negada
 dependendo do espaço disponível no data center. Quando a solicitação é concedida, o chamado é atualizado.
