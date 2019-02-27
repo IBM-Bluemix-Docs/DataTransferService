@@ -1,15 +1,16 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-12-13"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
 
-# 在 Linux 中連接至 DTS 裝置
+# 在 Linux for CentOS/RHEL 7 中連接至 DTS 裝置
+{: #mountingDTSlinux}
 
-若要與 Linux 型作業系統中的 iSCSI LUN 互動，使用者必須在終端機中輸入一系列指令來連接至 LUN。用來與 iSCSI LUN 互動的工具，取決於裝置上安裝的作業系統類型及版本。
+若要與 Linux 型作業系統中的 iSCSI LUN 互動，使用者必須在終端機中輸入一系列指令來連接至 LUN。用來在 Linux 型 OS 中與 iSCSI LUN 互動的工具，取決於裝置上安裝的作業系統類型及版本。
 
 ## 在 CentOS 7 及 RHEL 7 中配置連線
 
@@ -53,13 +54,13 @@ lastupdated: "2018-12-13"
    ```
    {: pre}
 
-6. 針對 iSCSI 目標主機執行探索。<br/>
+6. 針對 iscsi 目標主機執行探索。<br/>
    ```
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
 
-7. 連接至 iSCSI 目標主機。<br/>
+7. 連接至 iscsi 目標主機。<br/>
    ```
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```

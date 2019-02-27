@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
+
 
 # 在 Windows 中使用 iSCSI Software Initiator 連接至 DTS 裝置
+{: #mountingDTSWindows}
 
 若要與 Windows 中的 iSCSI LUN 互動，使用者必須使用 iSCSI Software Initiator（Microsoft 專有的 iSCSI 工具）來連接至儲存空間。對於 Windows Server 2008 或 Windows Vista 或更新版本的使用者，iSCSI Software Initiator 內建在作業系統中。Windows Server 2003、Windows XP 及 Windows 2000 的使用者，則必須先下載「啟動器」才能開始此程序。
 

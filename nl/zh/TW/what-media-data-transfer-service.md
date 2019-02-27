@@ -1,14 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # 媒體資料傳送服務簡介
- 
+{: #mediaDTS}
+
 使用資料傳送服務，您可以將 USB 2.0 或 3.0 相容裝置、CD 和 DVD 傳送至 {{site.data.keyword.BluSoftlayer_full}} 資料中心，以直接連接至您的網路。此裝置安裝在專用機架中，並作為 iSCSI 目標裝載。現在也支援「先進格式化」磁碟機。
 
 ## 硬體需求
@@ -34,7 +35,7 @@ lastupdated: "2018-06-27"
 - 對於「用戶端」要傳送到「硬體」的任何使用者資料，與「用戶端」使用者具有適當的合約，並從「用戶端」使用者取得的所有必要許可權。
 
 ## 提出要求
-您可以透過 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 提交要求。
+您可以透過 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 提交要求。
 
 1. 按一下**儲存空間** > **資料移轉** > **資料傳送**。
 2. 按一下**訂購資料傳送要求**。
@@ -53,18 +54,18 @@ lastupdated: "2018-06-27"
 此要求會建立一個支援問題單，以提醒 {{site.data.keyword.BluSoftlayer}} 技術人員該裝置正在運送，並容許技術人員追蹤運送情況。當 {{site.data.keyword.BluSoftlayer}} 收到裝置時，技術人員會將它連接到專用的框架。連接裝置之後，會更新問題單，以提供您一個鏈結，連至 iSCSI 目標的登入認證。
 
 ## 要求運回
-如果您提供了運回地址並將預付運送標籤內含在包裝中，則可以要求在為期兩週的傳送期間內隨時將裝置運回給您。您可以透過 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 提交要求。
+如果您提供了運回地址並將預付運送標籤內含在包裝中，則可以要求在為期兩週的傳送期間內隨時將裝置運回給您。您可以透過 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 提交要求。
 
 1. 選取**儲存空間** > **資料移轉** > **資料傳送**。
-2. 從裝置的**動作**功能表，選取**要求運回**。 
+2. 從裝置的**動作**功能表，選取**要求運回**。
 
 這項更新會提醒 {{site.data.keyword.BluSoftlayer}} 技術人員，您想要中斷裝置的連接並將它運回。
 
 ## 要求延長
-在兩週免費期間後，如果您仍需要使用裝置，則必須透過 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 要求延長。這項更新會提醒 {{site.data.keyword.BluSoftlayer}} 技術人員，您想要延長裝置的連接時間。 
+在兩週免費期間後，如果您仍需要使用裝置，則必須透過 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window} 要求延長。這項更新會提醒 {{site.data.keyword.BluSoftlayer}} 技術人員，您想要延長裝置的連接時間。
 
 1. 選取**儲存空間** > **資料移轉** > **資料傳送**。
-2. 在裝置的**動作**功能表，選取**要求延長**。 
+2. 在裝置的**動作**功能表，選取**要求延長**。
 
 每額外一週必須支付 $25 美元的服務費。您的延長要求可能會遭到拒絕，視資料中心的可用空間而定。當要求被授權時，便會更新問題單。
 
