@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # 开始使用数据传输服务
+{: #gettingstarted}
 
 客户可以使用 {{site.data.keyword.BluSoftlayer_full}} 数据传输服务将 USB 2.0 或 USB 3.0 兼容设备、CD 和 DVD 发往 {{site.data.keyword.BluSoftlayer}} 数据中心。这样，客户的设备可直接连接到其网络，从而可远程控制数据传输。设备将安装在客户数据中心的专用机架中，并作为 iSCSI 目标安装。当您需要传输大量数据但不使用 {{site.data.keyword.BluSoftlayer}} 的专用网络时，数据传输服务是您理想的选择，且该服务对所有 {{site.data.keyword.BluSoftlayer}} 客户免费提供。
 
@@ -15,14 +16,14 @@ lastupdated: "2018-06-27"
 
 **注**：此屏幕仅供帐户的主用户使用。
 
-1. 使用唯一凭证访问 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}。
+1. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 从导航栏中选择**存储** > **数据迁移** > **数据传输**，以访问“数据传输服务”屏幕。<br/>
 
 在**数据传输服务**屏幕上，用户可以提交数据传输请求，查看请求的详细信息，查看与设备跟踪关联的凭单历史记录以及取消现有请求。
 
 ## 提交数据传输请求
 
-数据传输请求旨在让我们数据中心的相应当事方了解有客户发来的设备。请求通过 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 提交。 
+数据传输请求旨在让我们数据中心的相应当事方了解有客户发来的设备。请求会通过 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 进行提交。
 
 创建请求时，请记住以下准则。
 
@@ -34,11 +35,11 @@ lastupdated: "2018-06-27"
 
 执行以下步骤来提交数据传输请求。
 
-1. 访问 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 中的**数据传输服务**屏幕。
+1. 访问 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 中的**数据传输服务**屏幕。
 2. 单击**订购数据传输请求**。
 3. 根据表 1 填写**设备信息**部分中的每个字段。
 <table border="1">
-<caption>表 1 左侧列出请求表单上的字段名称，右侧列出其描述。</caption> 
+<caption>表 1 左侧列出请求表单上的字段名称，右侧列出其描述。</caption>
  <tr><th>字段名称</th><th>指示信息</th></tr>
  <tr><td>设备类型</td><td>要发往目的地的设备类型。如果未列出设备类型，请选择“其他”。</td></tr>
  <tr><td>序列号</td><td> 设备的序列号。</td></tr><tr><td>描述</td><td>设备的简短描述。包含的重要详细信息可以是识别因素，如颜色、标签或标贴。</td></tr>
@@ -53,18 +54,18 @@ lastupdated: "2018-06-27"
 
 提交请求后，请求凭单的状态将显示为`已发往 SoftLayer`。如果任何进口或出口装运需要当地政府的许可，请通知 {{site.data.keyword.BluSoftlayer}}，并在凭单中附加许可信息。
 
-在收到设备后，状态将更新为 `SoftLayer 已接收`。在数据中心技术人员将设备连接到网络后，凭单状态将再次更新为`已连接`。 
+在收到设备后，状态将更新为 `SoftLayer 已接收`。在数据中心技术人员将设备连接到网络后，凭单状态将再次更新为`已连接`。
 
 初始数据传输周期为 2 周。在此期间，仅帐户管理员有权访问该设备。如果需要更多时间，您可以请求延期。另外，如果想要在两周内就发回设备，可请求退回。传输完成后，您必须通过 [{{site.data.keyword.slportal}}](https://control.softlayer.com/) 通知 {{site.data.keyword.IBM}}。然后，{{site.data.keyword.BluSoftlayer}} 会断开设备的连接，并根据您的请求将其退回或销毁。
 
 
 ## 访问装运屏幕
 
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 中的“装运”屏幕显示与数据传输服务请求关联的所有装运。您可以从此屏幕查看装运并且可在回执上确认退货装运。 
+[{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 中的“装运”屏幕会显示与数据传输服务请求相关联的所有装运。您可以从此屏幕查看装运并且可在回执上确认退货装运。
 
 要访问“装运”屏幕：
 
-1. 使用唯一凭证访问 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}。
+1. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。
 2. 从导航栏中选择**帐户** > **管理** > **装运**。
 
 在“装运”屏幕上，会显示过去 30 天内的所有装运请求及其详细信息。您可按状态、时限或特定装运详细信息对装运进行[排序或过滤](sort-or-filter-shipments-list.html)。此外，您可以在此屏幕中确认已收到退回的装运。![“装运”屏幕](/images/DTSShipmentScreen1.png)
