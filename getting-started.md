@@ -4,10 +4,14 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-05"
 
+keywords:
+
+subcollection: DataTransferService
+
 ---
 {:new_window: target="_blank"}
 
-# Getting started with data transfer service
+# Getting started tutorial
 {: #gettingstarted}
 
 Customers can use the {{site.data.keyword.BluSoftlayer_full}} data transfer service to send a USB 2.0 or USB 3.0 compatible device, CDs, and DVDs to a {{site.data.keyword.BluSoftlayer}} data center. Their device is connected directly to their network so they can remotely control the data transfer. The device is housed in a dedicated rack that is located in the customers data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.BluSoftlayer}}'s private network, and it's a service offered free-of-charge to all {{site.data.keyword.BluSoftlayer}} customers.

@@ -5,7 +5,7 @@
 IBM Cloud Storage - 数据传输服务
 
     {: .navgroup id="learn"}
-    index.md
+    getting-started.md
     what-media-data-transfer-service.md
 
     {: .topicgroup}
