@@ -16,26 +16,25 @@ Pour interagir avec un numéro d'unité logique iSCSI sous Windows, les utilisat
 
 1. Sur le portail {{site.data.keyword.slportal}}, récupérez les **nom d'utilisateur, mot de passe et adresse mémoire iSCSI** correspondant au périphérique de stockage à connecter.
 2. Démarrez l'initiateur iSCSI.
-3. Sur l'onglet **Configuration**, mettez à jour le nom de l'initiateur avec le nom qualifié iSCSI du portail {{site.data.keyword.slportal}}.
-4. Cliquez sur **Discovery**.
-5. Dans la section **Target Portals**, cliquez sur **Add**.
-6. Dans la zone **IP address or DNS name**, entrez l'**adresse IP iSCSI**.
-7. Cliquez sur **Advanced**.
-8. Mettez à jour les informations de connexion iSCSI.
+3. Cliquez sur **Discovery**.
+4. Dans la section **Target Portals**, cliquez sur **Add**.
+5. Dans la zone **IP address or DNS name**, entrez l'**adresse IP iSCSI**.
+6. Cliquez sur **Advanced**.
+7. Mettez à jour les informations de connexion iSCSI.
    - Sélectionnez la case relative aux **informations de connexion CHAP** pour activer la connexion correspondante.
    - Entrez le nom d'utilisateur iSCSI dans la zone **user name**.
    - Entrez le mot de passe iSCSI dans la zone **target secret**.
    - Cliquez deux fois sur **OK**.
-9. Cliquez sur **Targets**
-10. Sélectionnez la dernière interface iSCSI ajoutée à partir de la liste **Targets**.
-11. Cliquez sur **Logon**. La fenêtre **Log On to Target** s'affiche.
-12. Sélectionnez **Automatically restore this connection when the system boots** afin de maintenir la connexion entre chaque redémarrage.
-13. Cliquez sur **Advanced**.
-14. Mettez à jour les informations de connexion iSCSI.
+8. Cliquez sur **Targets**
+9. Sélectionnez la dernière interface iSCSI ajoutée à partir de la liste **Targets**.
+10. Cliquez sur **Logon**. La fenêtre **Log On to Target** s'affiche.
+11. Sélectionnez **Automatically restore this connection when the system boots** afin de maintenir la connexion entre chaque redémarrage.
+12. Cliquez sur **Advanced**.
+13. Mettez à jour les informations de connexion iSCSI.
     - Sélectionnez la case relative aux **informations de connexion CHAP** pour activer la connexion correspondante.
     - Entrez le nom d'utilisateur iSCSI dans la zone **user name**.
     - Entrez le mot de passe iSCSI dans la zone **target secret**.
     - Cliquez deux fois sur **OK**.
-15. Vérifiez que la nouvelle cible iSCSI apparaît avec l'état Connected sur l'onglet Targets.
+14. Vérifiez que la nouvelle cible iSCSI apparaît avec l'état Connected sur l'onglet Targets.
     - Si votre cible iSCSI a pour état **Connected**, cliquez sur **OK**. Votre numéro d'unité logique iSCSI est désormais connecté.
     - Si votre cible iSCSI n'est pas à l'état **Connected**, répétez toutes les étapes précédentes pour réinitialiser la connexion.
