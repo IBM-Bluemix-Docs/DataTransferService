@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-20"
 
 keywords:
 
@@ -16,7 +16,7 @@ subcollection: DataTransferService
 
 The Shipments screen within the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} displays shipments that are associated with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types.
 
-## Sorting and Filtering
+## Sorting and filtering
 
 1. Access the Shipments screen within the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 2. Determine whether the view is to be filtered for specific details or sorted by shipment status.
