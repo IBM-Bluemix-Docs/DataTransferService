@@ -1,3 +1,8 @@
-# Data Transfer Service
+# IBM Cloud Data Transfer Service docs
+This repository stores documentation source files for IBM Cloud Data Transfer Servier.
 
-This collection belongs to the IBM Cloud IaaS Storage tribe. If you have any questions or concerns about this offering, contact the Offering Manager, Ryan Hawkins (mrhawkins@us.ibm.com).
+To view the live documentation, check out the <a href="https://cloud.ibm.com/docs/infrastructure/DataTransferService" target="_blank"> IBM Cloud Docs</a> website. 
+
+## Contributing
+
+If you see a bug, you can contribute to this repository by [raising an issue](https://github.com/IBM-Bluemix-Docs/DataTransferService/issues/new), or creating a pull request. 

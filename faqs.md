@@ -2,18 +2,32 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-10"
 
 keywords:
 
 subcollection: DataTransferService
 
 ---
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 {:faq: data-hd-content-type='faq'}
 
 # FAQs
+{: #faqs}
 
-## What is Data Transfer?
+Frequently asked questions about {{site.data.keyword.cloud}} Data Transfer Service.
+{: shortdesc}
+
+## What is Data Transfer Service?
 {: faq}
 
 This service allows authorized users (generally the account's administrator) to send compatible devices to one of the {{site.data.keyword.BluSoftlayer_full}} data centers to be connected directly to the account's network. The device is housed in a dedicated rack and is mounted as an iSCSI target for two weeks. During that period, the administrator can access the device on the network to use it with other devices and services on the account. After the two-week period, an extension can be requested to keep the device connected to the network. Otherwise, the device is either returned to the party specified in the request; or the device is destroyed onsite.
@@ -37,15 +51,15 @@ Include a pre-paid return shipping label and all appropriate export documents wi
 
 Use the following guidelines when you select a device to submit for data transfer:
 
-- **Hardware Requirements**
+**Hardware Requirements**
 
-   - Power supply must be 208v/220v compatible.
+- Power supply must be 208v/220v compatible.
+- Power plug must fit a standard 120v socket (NEMA 5-15P).
+- Device must be USB 2.0 or USB 3.0 compatible.
+- Provide a USB A male connector (standard USB plug that fits most computers).
 
-   - Power plug must fit a standard 120v socket (NEMA 5-15P).
-
-   - Device must be USB 2.0 or USB 3.0 compatible.
-
-   - Provide a USB A Male connector (standard USB plug that fits most computers).
+    Encrypted USB devices that require support for proprietary encryption software are not supported for data transfer.
+    {: note}
 
 ## Can the device be sent back sooner or can it stay longer than two weeks?
 {: faq}
